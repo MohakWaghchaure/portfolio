@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align: left;
+}
+
+.body-container{
+    .header-wrapper{
+        background-color: #F9EFDB;
+        .header-container{
+            padding: 20px 0px;
+            .logo-wrapper{
+                .logo{
+                    font-size: 28px;
+                    color: #638889;
+                }
+            }
+            .nav-wrapper{
+                .nav-container{
+                    height: 100%;
+                    display: flex;
+                    justify-content: end;
+                    .nav{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: auto;
+                        font-size: 20px;
+                        cursor: pointer;
+                        color: #638889;
+                        padding: 0px 25px;
+                        &:hover{
+                            transform: scale(1.05);
+                            transition: 0.25s;
+                            color: #183D3D;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .home-wrapper{
+        background: linear-gradient(180deg, rgba(249,239,219,1) 50%, rgba(255,255,255,1) 100%);
+        padding-bottom: 100px;
+        .home-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 125px;
+                padding-bottom: 20px;
+            .info-wrapper{
+                .text-1{
+                    font-size: 45px;
+                }
+                .text-2{
+                    font-size: 27px;
+                    padding: 2px 0px;
+                }
+                .btn-wrapper{
+                    padding: 20px 0px;
+                    button{
+                        background-color: #638889;
+                        color: #ffffff;
+                        font-size: 18px;
+                        border: 0px;
+                        padding: 10px 40px;
+                        cursor: pointer;
+                        border-radius: 4px;
+                        border: 2px solid #638889;
+                        &:hover{
+                            background-color: #ffffff;
+                            border: 2px solid #638889;
+                            color: #638889;
+                            transition: 0.2s;
+                        }
+                    }
+                }
+            }
+            .picture-wrapper{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: rotate(2deg);
+                img{
+                    height: 480px;
+                }
+            }
+        }
+    }
+
+    .edu-wrapper{
+        position: relative;
+        overflow: hidden;
+        &.mb-100{
+            margin-bottom: 100px;
+        }
+        .edu-side-image{
+            background-image: url('../images/education.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            background-size: cover;
+            height: 700px;
+            width: 35%;
+            left: -45px;
+            top: -25px;
+        }
+        .edu-container{
+            padding: 50px 0px;
+            .heading{
+                font-size: 35px;
+                padding: 40px 0px;
+            }
+            .info-wrapper{
+                padding: 20px 0px;
+                .title{
+                    font-size: 27px;
+                    padding-bottom: 10px;
+                }
+                .border-line{
+                    width: 200px;
+                    background: #212529;
+                    height: 2px;
+                }
+                .description{
+                    font-size: 22px;
+                    padding: 10px 0px;
+                }
+                .date{
+                    font-size: 18px;
+                    letter-spacing: 2px;
+                }
+            }
+            .skills-image{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                img{
+                    height: 400px;
+                }
+            }
+        }
+        .exp-side-image{
+            background-image: url('../images/experience.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            position: absolute;
+            background-size: cover;
+            height: 850px;
+            width: 50%;
+            right: -45px;
+            top: -35px;
+        }
+    }
+
+    .contact-wrapper{
+        background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(249,239,219,1) 100%);
+        .contact-container{
+            .heading{
+                font-size: 35px;
+                padding: 40px 0px;
+            }
+            .info-wrapper{
+                .socials-wrapper{
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    padding-bottom: 25px;
+                    .icon{
+                        height: 40px;
+                        width: 40px;
+                        background-color: #183D3D;
+                        border-radius: 20%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            height: 22px;
+                            width: 22px;
+                        }
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #183D3D;
+                        &:hover{
+                            color: #638889;
+                            transition: 0.25s;
+                        }
+                        .link{
+                            padding-left: 15px;
+                            font-size: 18px;
+                            cursor: pointer;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
