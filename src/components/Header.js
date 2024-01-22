@@ -1,6 +1,7 @@
-import { Fragment } from 'react';
+import { Fragment, useRef } from 'react';
  
 function Header(){
+    const scollToRef = useRef();
     return(
         <Fragment>
             <div className='header-wrapper fixed-top'>

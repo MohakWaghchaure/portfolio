@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import Profile from '../images/profile.png'
+import Profile from '../images/profile.jpeg'
  
 function Home(){
     return(
@@ -11,7 +11,7 @@ function Home(){
                             <div className='text-1'>Hi</div>
                             <div className='text-1'>I'm Mohak</div>
                             <div className='text-2 pt-2'>A Frontend / Application Developer</div>
-                            <div className='text-2'>based in New Jersey</div>
+                            <div className='text-2'>based in New York City</div>
                             <div className='btn-wrapper'>
                                 <button>GET IN TOUCH</button>
                             </div>
