@@ -10,8 +10,8 @@ function GetInTouch(){
             <div className='contact-wrapper'>
                 <div className='container'>
                     <div className='row contact-container'>
+                        <div className='heading'>GET IN TOUCH</div>
                         <div className='col-6'>
-                            <div className='heading'>GET IN TOUCH</div>
                             <div className='info-wrapper'>
                                 <div className='socials-wrapper'>
                                     <div className='icon'>
@@ -48,7 +48,9 @@ function GetInTouch(){
                             </div>
                         </div>
                         <div className='col-6'>
-
+                            <div className='resume-wrapper'>    
+                                <button className='download-resume'>Download Resume</button>
+                            </div>
                         </div>
                     </div>
                 </div>

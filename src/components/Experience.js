@@ -33,6 +33,7 @@ function Experience(){
                                 <div className='description'>Bysness Inc, Pinsaar Software Technologies Pvt. Ltd. </div>
                                 <div className='date'>June 2018 to Sept 2019</div>
                             </div>
+                            <div className='details-btn exp'>Know More</div>
                         </div>
                         <div className='col-5'></div>
                     </div>

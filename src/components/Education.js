@@ -28,6 +28,7 @@ function Education(){
                                 <div className='description'>Vidyalankar Institute of Technology, Mumbai University</div>
                                 <div className='date'>June 2013 to Sept 2017</div>
                             </div>
+                            <div className='details-btn'>View Details</div>
                         </div>
                     </div>
                 </div>
