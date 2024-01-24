@@ -15,14 +15,14 @@ function Skills(){
                             </div>
                         </div>
                         <div className='row'>
-                            <div className='col-6'>
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='skills-info-wrapper'>
                                     <div className='title'>Languages/ Technologies</div>
                                     {/* <div className='border-line'></div> */}
                                     <div className='description'>HTML, CSS, JavaScript, SCSS, jQuery, C++, Bootstrap, GSAP, Flexbox, React, Express, R, Python, SQL</div>
                                 </div>
                             </div>
-                            <div className='col-6'>
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='skills-info-wrapper'>
                                     <div className='title'>Applications/others</div>
                                     {/* <div className='border-line'></div> */}

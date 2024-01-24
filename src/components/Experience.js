@@ -8,7 +8,7 @@ function Experience({ setIsOpen, setModalContent }){
                 <div className='exp-side-image'></div>
                 <div className='container'>
                     <div className='row edu-container'>
-                        <div className='col-7'>
+                        <div className='col-lg-7 col-md-7 col-sm-9 col-xs-12'>
                             <div className='heading-wrap'>
                                 <div className='heading'>WORK EXPERIENCE</div>
                                 <div className='heading-icon'>
@@ -33,9 +33,11 @@ function Experience({ setIsOpen, setModalContent }){
                                 <div className='description'>Bysness Inc, Pinsaar Software Technologies Pvt. Ltd. </div>
                                 <div className='date'>June 2018 to Sept 2019</div>
                             </div>
-                            <div className='details-btn exp' onClick={() => {setIsOpen(true); setModalContent('experience')}}>Know More</div>
+                            <div className='details-btn-wrap'>
+                                <div className='details-btn exp' onClick={() => {setIsOpen(true); setModalContent('experience')}}>Know More</div>
+                            </div>
                         </div>
-                        <div className='col-5'></div>
+                        <div className='col-lg-5 col-md-5 col-sm-3'></div>
                     </div>
                 </div>
             </div>

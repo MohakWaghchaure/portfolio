@@ -15,7 +15,7 @@ function EducationDetails(){
                     <div className='title'>Master of Science - Information Technology & Analytics</div>
                     <div className='border-line'></div>
                     <div className='description pb-2'>Rutgers Business School - Newark & New Brunswick, Rutgers University</div>
-                    <div className='subjects'>Related Courses: Information Security, Business Data Management, Software Development, Analytics Business Intelligence,<br />
+                    <div className='subjects'>Related Courses: Information Security, Business Data Management, Software Development, Analytics Business Intelligence,
                         Project Management, Business Analytics Programming, Data Mining, Algorithmic Machine Learning, Data Visualization</div>
                     <div className='date pt-2'>June 2022 to Sept 2023</div>
                 </div>

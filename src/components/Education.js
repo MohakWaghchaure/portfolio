@@ -8,8 +8,8 @@ function Education({ setIsOpen, setModalContent }){
                 <div className='edu-side-image'></div>
                 <div className='container'>
                     <div className='row edu-container'>
-                        <div className='col-5'></div>
-                        <div className='col-7'>
+                        <div className='col-lg-5 col-md-5 col-sm-3'></div>
+                        <div className='col-lg-7 col-md-7 col-sm-9 col-xs-12'>
                             <div className='heading-wrap'>
                                 <div className='heading'>EDUCATION</div>
                                 <div className='heading-icon'>
@@ -28,7 +28,9 @@ function Education({ setIsOpen, setModalContent }){
                                 <div className='description'>Vidyalankar Institute of Technology, Mumbai University</div>
                                 <div className='date'>June 2013 to Sept 2017</div>
                             </div>
-                            <div className='details-btn' onClick={() => {setIsOpen(true); setModalContent('education')}}>View Details</div>
+                            <div className='details-btn-wrap'>
+                                <div className='details-btn' onClick={() => {setIsOpen(true); setModalContent('education')}}>View Details</div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -28,10 +28,11 @@ function Header({setIsOpen, setModalContent}){
             <div className='header-wrapper fixed-top'>
                 <div className='container header-container'>
                     <div className='row'>
-                        <div className='col-5 logo-wrapper'>
+                        <div className='col-lg-5 col-md-5 col-sm-5 logo-wrapper'>
                             <div className='logo' onClick={scrollToHome}>Mohak Sunil Waghchaure</div>
+                            <div className='logo-small' onClick={scrollToHome}>MSW</div>
                         </div>
-                        <div className='col-7 nav-wrapper'>
+                        <div className='col-lg-7 col-md-7 col-sm-7 nav-wrapper'>
                             <div className='row nav-container'>
                                 <div className='nav' onClick={() => {setIsOpen(true); setModalContent('about')}}>About</div>
                                 <div className='nav' onClick={scrollToEdu}>Education</div>
