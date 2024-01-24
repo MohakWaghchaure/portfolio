@@ -5,7 +5,7 @@ import SkillsImage from '../images/skills.png'
 function Skills(){
     return(
         <Fragment>
-            <div className='skills-wrapper'>
+            <div className='skills-wrapper' id="skills-section-anchor">
                 <div className='container'>
                     <div className='skills-container'>
                         <div className='heading-wrap'>

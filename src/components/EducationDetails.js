@@ -11,7 +11,7 @@ function EducationDetails(){
                         <img src={EducationIcon}/>
                     </div>
                 </div> */}
-                <div className='info-wrapper pb-4'>
+                <div className='info-wrapper'>
                     <div className='title'>Master of Science - Information Technology & Analytics</div>
                     <div className='border-line'></div>
                     <div className='description pb-2'>Rutgers Business School - Newark & New Brunswick, Rutgers University</div>

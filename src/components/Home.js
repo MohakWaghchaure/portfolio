@@ -2,9 +2,13 @@ import { Fragment } from 'react';
 import Profile from '../images/profile.jpeg'
  
 function Home(){
+    function scrollToContact(){
+        const divElement = document.getElementById('contact-section-anchor').offsetTop;
+        window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
+    }
     return(
         <Fragment>
-            <div className='home-wrapper'>
+            <div className='home-wrapper' id='home-section-anchor'>
                 <div className='container'>
                     <div className='row home-container'>
                         <div className='col-6 info-wrapper'>
@@ -13,7 +17,7 @@ function Home(){
                             <div className='text-2 pt-2'>A Frontend / Application Developer</div>
                             <div className='text-2'>based in New York City</div>
                             <div className='btn-wrapper'>
-                                <button>GET IN TOUCH</button>
+                                <button onClick={scrollToContact}>GET IN TOUCH</button>
                             </div>
                         </div>
                         <div className='col-6 picture-wrapper'>

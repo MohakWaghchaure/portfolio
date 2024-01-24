@@ -7,7 +7,7 @@ import email from '../images/icons/email.png';
 function GetInTouch(){
     return(
         <Fragment>
-            <div className='contact-wrapper'>
+            <div className='contact-wrapper' id="contact-section-anchor">
                 <div className='container'>
                     <div className='row contact-container'>
                         <div className='heading'>GET IN TOUCH</div>

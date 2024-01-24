@@ -4,7 +4,7 @@ import WorkIcon from '../images/icons/briefcase.png'
 function Experience({ setIsOpen, setModalContent }){
     return(
         <Fragment>
-            <div className='edu-wrapper experiece-wrapper'>
+            <div className='edu-wrapper experiece-wrapper' id="exp-section-anchor">
                 <div className='exp-side-image'></div>
                 <div className='container'>
                     <div className='row edu-container'>

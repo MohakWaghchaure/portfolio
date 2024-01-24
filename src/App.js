@@ -29,6 +29,7 @@ const customStyles = {
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [modalContent, setModalContent] = useState(false);
+  
   function openModal() {
     setIsOpen(true);
   }

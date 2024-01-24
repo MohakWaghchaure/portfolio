@@ -21,6 +21,7 @@ body{
                     font-size: 28px;
                     color: #5C8374;
                     font-weight: 500;
+                    cursor: pointer;
                 }
             }
             .nav-wrapper{
@@ -380,7 +381,7 @@ body{
         }
         .title{
             font-size: 27px;
-            padding-bottom: 20px;
+            padding-bottom: 10px;
         }
         .border-line_1{
             width: 200px;
@@ -389,20 +390,46 @@ body{
         }
         .border-line{
             width: 200px;
-            height: 2px;
+            height: 1px;
             background-color: #93B1A6;
         }
         .description{
-            padding-top: 20px;
+            padding-top: 15px;
             font-size: 22px;
             
         }
         .subjects{
+            font-size: 18px;
             font-style: italic;
         }
         .date {
             font-size: 18px;
             letter-spacing: 2px;
+        }
+
+        .info-wrapper{
+            padding-bottom: 50px;
+            position: relative;
+            &.marking-arrow{
+                &::after{
+                    content: '';
+                    position: absolute;
+                    height: 15px;
+                    width: 15px;
+                    top: 10%;
+                    right: 10%;
+                    background: url(../images/icons/right-arrow.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                }
+            }
+        }
+        .role-description{
+            padding: 0px 0px;
+            li{
+                font-size: 16px;
+            }
         }
         
         
