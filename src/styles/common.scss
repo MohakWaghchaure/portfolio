@@ -92,7 +92,7 @@ body{
                 .picture-container{
                     padding: 10px;
                     border: 2px solid #93B1A6;
-                    transform: rotate(2deg);
+                    transform: rotate(4deg);
                     img{
                         height: 480px;
                     }
@@ -358,4 +358,54 @@ body{
             }
         }
     }
+
+
+
+
+
+
+
+   
+    
+}
+
+
+.modal-container{
+    .more-details-container{
+        padding: 20px 20px;
+        color: #93B1A6;
+        .heading{
+            font-size: 28px;
+            padding-bottom: 20px;
+        }
+        .title{
+            font-size: 27px;
+            padding-bottom: 20px;
+        }
+        .border-line_1{
+            width: 200px;
+            height: 2px;
+            background-color: #93B1A6;
+        }
+        .border-line{
+            width: 200px;
+            height: 2px;
+            background-color: #93B1A6;
+        }
+        .description{
+            padding-top: 20px;
+            font-size: 22px;
+            
+        }
+        .subjects{
+            font-style: italic;
+        }
+        .date {
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+        
+        
+    }
+    
 }

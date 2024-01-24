@@ -1,6 +1,6 @@
 import { Fragment, useRef } from 'react';
  
-function Header(){
+function Header({setIsOpen, setModalContent}){
     const scollToRef = useRef();
     return(
         <Fragment>
@@ -12,7 +12,7 @@ function Header(){
                         </div>
                         <div className='col-7 nav-wrapper'>
                             <div className='row nav-container'>
-                                <div className='nav'>About</div>
+                                <div className='nav' onClick={() => {setIsOpen(true); setModalContent('about')}}>About</div>
                                 <div className='nav'>Education</div>
                                 <div className='nav'>Experience</div>
                                 <div className='nav'>Skills</div>

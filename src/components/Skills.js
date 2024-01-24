@@ -19,7 +19,7 @@ function Skills(){
                                 <div className='skills-info-wrapper'>
                                     <div className='title'>Languages/ Technologies</div>
                                     {/* <div className='border-line'></div> */}
-                                    <div className='description'>HTML, CSS, JavaScript, SCSS, jQuery, C++, Bootstrap, GSAP, Flexbox, React, Express, R, SQL, Python, SQL</div>
+                                    <div className='description'>HTML, CSS, JavaScript, SCSS, jQuery, C++, Bootstrap, GSAP, Flexbox, React, Express, R, Python, SQL</div>
                                 </div>
                             </div>
                             <div className='col-6'>
