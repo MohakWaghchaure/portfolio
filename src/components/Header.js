@@ -1,22 +1,63 @@
-import { Fragment } from 'react';
+import { useState, Fragment } from 'react';
+import HamburgerMenu from '../images/icons/menu-bar.png'
  
-function Header(){
+function Header({setIsOpen, setModalContent}){
+    const [mobileMenu, setMobileMenu] = useState(false)
+ 
+
+
+    function scrollToHome(){
+        const divElement = document.getElementById('home-section-anchor').offsetTop;
+        window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
+    }
+    function scrollToEdu(){
+        const divElement = document.getElementById('edu-section-anchor').offsetTop;
+        window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
+    }
+    function scrollToExp(){
+        const divElement = document.getElementById('exp-section-anchor').offsetTop;
+        window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
+    }
+    function scrollToskills(){
+        const divElement = document.getElementById('skills-section-anchor').offsetTop;
+        window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
+    }
+    function scrollToContact(){
+        const divElement = document.getElementById('contact-section-anchor').offsetTop;
+        window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
+    }
+
     return(
         <Fragment>
-            <div className='header-wrapper fixed-top'>
+            <div className='header-wrapper fixed-top' data-aos="fade-down">
                 <div className='container header-container'>
                     <div className='row'>
-                        <div className='col-7 logo-wrapper'>
-                            <div className='logo'>Mohak Sunil Waghchaure</div>
+                        <div className='col-lg-5 col-md-5 col-sm-5 col-6 logo-wrapper'>
+                            <div className='logo' onClick={scrollToHome}>Mohak Sunil Waghchaure</div>
+                            <div className='logo-small' onClick={scrollToHome}>MSW</div>
                         </div>
-                        <div className='col-5 nav-wrapper'>
+                        <div className='col-lg-7 col-md-7 col-sm-7 col-6 nav-wrapper'>
                             <div className='row nav-container'>
-                                <div className='nav'>Education</div>
-                                <div className='nav'>Experience</div>
-                                <div className='nav'>Skills</div>
-                                <div className='nav'>Get In Touch</div>
+                                <div className='nav' onClick={() => {setIsOpen(true); setModalContent('about')}}>About</div>
+                                <div className='nav' onClick={scrollToEdu}>Education</div>
+                                <div className='nav' onClick={scrollToExp}>Experience</div>
+                                <div className='nav' onClick={scrollToskills}>Skills</div>
+                                <div className='nav' onClick={scrollToContact}>Contact</div>
+                            </div>
+                            <div className='hamburger' onClick={() => setMobileMenu(!mobileMenu)}>
+                                <img src={HamburgerMenu}/>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className={mobileMenu ? 'mobile-navigation active': 'mobile-navigation'}>
+                    <div className='row nav-container'>
+                        <div className='nav' onClick={() => {setIsOpen(true); setModalContent('about')}}>About</div>
+                        <div className='nav' onClick={scrollToEdu}>Education</div>
+                        <div className='nav' onClick={scrollToExp}>Experience</div>
+                        <div className='nav' onClick={scrollToskills}>Skills</div>
+                        <div className='nav' onClick={scrollToContact}>Contact</div>
+                        <span className='menu-close' onClick={() => setMobileMenu(!mobileMenu)}></span>
                     </div>
                 </div>
             </div>
