@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,6 +12,9 @@ import GetInTouch from './components/GetInTouch';
 import About from './components/About';
 import EducationDetails from './components/EducationDetails';
 import ExperienceDetails from './components/ExperienceDetails';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Footer from './components/Footer';
 
 Modal.setAppElement('#root');
 
@@ -29,7 +32,15 @@ const customStyles = {
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [modalContent, setModalContent] = useState(false);
-  
+
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
+
+
   function openModal() {
     setIsOpen(true);
   }
@@ -50,7 +61,7 @@ function App() {
       <Experience setIsOpen={setIsOpen} setModalContent={setModalContent}></Experience>
       <Skills></Skills>
       <GetInTouch></GetInTouch>
-      
+      <Footer></Footer>     
 
       <Modal isOpen={modalIsOpen} onAfterOpen={afterOpenModal} onRequestClose={closeModal} style={customStyles}>
         <div className='modal-container'>

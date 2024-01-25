@@ -10,9 +10,9 @@ function GetInTouch(){
         <Fragment>
             <div className='contact-wrapper' id="contact-section-anchor">
                 <div className='container'>
-                    <div className='row contact-container'>
+                    <div className='row contact-container' data-aos="fade-up">
                         <div className='heading'>GET IN TOUCH</div>
-                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs'>
                             <div className='info-wrapper'>
                                 <div className='socials-wrapper'>
                                     <div className='icon'>
@@ -48,7 +48,7 @@ function GetInTouch(){
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs'>
                             <div className='resume-wrapper'>    
                                 <a href={resumePdf} download='Mohak_Waghchaure_resume' className='download-resume'>Download Resume</a>
                             </div>

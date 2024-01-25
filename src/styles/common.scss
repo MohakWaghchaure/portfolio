@@ -265,8 +265,12 @@ body{
         background: linear-gradient(0deg, rgba(4,13,18,1) 50%, rgba(19,51,51,1) 100%);
         position: relative;
         overflow: hidden;
-        &.mb-100{
+        padding-top: 40px;
+        &.mbottom-100{
             margin-bottom: 100px;
+            @media screen and (max-width: 768px) {
+                margin-bottom: 0px;
+            }
         }
         .edu-side-image{
             background-image: url('../images/education.jpg');
@@ -286,10 +290,10 @@ body{
             }
         }
         .edu-container{
-            padding: 50px 0px;
+            padding-bottom: 150px;
             @media screen and (max-width: 576px) {
                 padding: 0px;
-                padding-bottom: 80px;
+                padding-bottom: 20px;
             }
             .heading-wrap{
                 display: flex;
@@ -469,7 +473,7 @@ body{
         }
     }
     .skills-wrapper{
-        padding: 50px 0px;
+        // padding: 50px 0px;
         background: linear-gradient(0deg, rgba(4,13,18,1) 50%, rgba(19,51,51,1) 100%);
         @media screen and (max-width: 576px) {
             padding: 0px 0px;
@@ -668,15 +672,12 @@ body{
             }
         }
     }
-
-
-
-
-
-
-
-   
-    
+    .footer{
+        text-align: center;
+        font-size: 18px;
+        color: #183D3D;
+        padding-bottom: 20px;
+    }    
 }
 
 
@@ -797,9 +798,6 @@ body{
             li{
                 font-size: 16px;
             }
-        }
-        
-        
-    }
-    
+        }        
+    }    
 }

@@ -11,7 +11,7 @@ function ExperienceDetails(){
                     </div>
                 </div> */}
                 <div className='row'>
-                    <div className='col-lg-4 col-md-6 col-sm-12 col-xs-12'>
+                    <div className='col-lg-4 col-md-6 col-sm-12 col-xs'>
                         <div className='info-wrapper marking-arrow'>
                             <div className='title'>Assistant Frontend Developer</div>
                             <div className='border-line'></div>
@@ -19,7 +19,7 @@ function ExperienceDetails(){
                             <div className='date'>June 2021 to Sept 2022</div>
                         </div>
                     </div>
-                    <div className='col-lg-8 col-md-6 col-sm-12 col-xs-12'>
+                    <div className='col-lg-8 col-md-6 col-sm-12 col-xs'>
                         <div className='role-description'>
                             <ul>
                                 <li>Collaborated with UI/UX professionals in an Agile framework to conceptualize layouts, prototypes, and UI specifications.</li>
@@ -33,7 +33,7 @@ function ExperienceDetails(){
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-lg-4 col-md-6 col-sm-12 col-xs-12'>
+                    <div className='col-lg-4 col-md-6 col-sm-12 col-xs'>
                         <div className='info-wrapper marking-arrow'>
                             <div className='title'>Associate Developer - FEE</div>
                             <div className='border-line'></div>
@@ -41,7 +41,7 @@ function ExperienceDetails(){
                             <div className='date'>June 2019 to Sept 2020</div>
                         </div>
                     </div>
-                    <div className='col-lg-8 col-md-6 col-sm-12 col-xs-12'>
+                    <div className='col-lg-8 col-md-6 col-sm-12 col-xs'>
                         <div className='role-description'>
                             <ul>
                                 <li>Collaborated with UI/UX professionals in an Agile framework to conceptualize layouts, prototypes, and UI specifications.</li>
@@ -55,7 +55,7 @@ function ExperienceDetails(){
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-lg-4 col-md-6 col-sm-12 col-xs-12'>
+                    <div className='col-lg-4 col-md-6 col-sm-12 col-xs'>
                         <div className='info-wrapper marking-arrow'>
                             <div className='title'>Frontend Developer</div>
                             <div className='border-line'></div>
@@ -63,7 +63,7 @@ function ExperienceDetails(){
                             <div className='date'>June 2018 to Sept 2019</div>
                         </div>
                     </div>
-                    <div className='col-lg-8 col-md-6 col-sm-12 col-xs-12'>
+                    <div className='col-lg-8 col-md-6 col-sm-12 col-xs'>
                         <div className='role-description'>
                             <ul>
                                 <li>Collaborated with UI/UX professionals in an Agile framework to conceptualize layouts, prototypes, and UI specifications.</li>
