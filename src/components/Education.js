@@ -4,7 +4,7 @@ import EducationIcon from '../images/icons/graduation-cap.png'
 function Education({ setIsOpen, setModalContent }){
     return(
         <Fragment>
-            <div className='edu-wrapper mb-100' id="edu-section-anchor">
+            <div className='edu-wrapper' id="edu-section-anchor">
                 <div className='edu-side-image'></div>
                 <div className='container'>
                     <div className='row edu-container'>
