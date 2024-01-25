@@ -677,6 +677,10 @@ body{
         font-size: 18px;
         color: #183D3D;
         padding-bottom: 20px;
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+            padding-bottom: 15px;
+        }
     }    
 }
 
