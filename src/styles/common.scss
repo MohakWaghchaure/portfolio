@@ -1,3 +1,11 @@
+$color_1: #040D12;
+$color_2: #183D3D;
+$color_3: #5C8374;
+$color_4: #93B1A6; 
+
+$rgba_color_1: #040D12;
+$rgba_color_2: #0e2e2e;
+
 body{
     margin: 0px;
     padding: 0px;
@@ -6,16 +14,16 @@ body{
     font-family: 'Noto Serif Display', serif;
 }
 .test{
-    background-color: #040D12;
+    background-color: $color_1;
 }
 .body-container{
-    background-color: #040D12;
+    background-color: $color_1;
     width: 100%;
-    // background: linear-gradient(180deg, rgba(4,13,18,1) 50%, rgba(19,51,51,1) 100%);
-    // background: linear-gradient(0deg, rgba(4,13,18,1) 50%, rgba(19,51,51,1) 100%);
-    color: #93B1A6;
+    // background: linear-gradient(180deg, rgba_color_1 50%, $rgba_color_2 100%);
+    // background: linear-gradient(0deg, rgba_color_1 50%, $rgba_color_2 100%);
+    color: $color_4;
     .header-wrapper{
-        background-color: #040D12;
+        background-color: $color_1;
         .header-container{
             padding: 20px 0px;
             @media screen and (max-width: 768px) {
@@ -28,7 +36,7 @@ body{
                 .logo{
                     font-family: 'Dancing Script', cursive;
                     font-size: 28px;
-                    color: #5C8374;
+                    color: $color_3;
                     font-weight: 500;
                     cursor: pointer;
                     padding: 0px 0px;
@@ -45,7 +53,7 @@ body{
                 .logo-small{
                     font-family: 'Dancing Script', cursive;
                     font-size: 22px;
-                    color: #5C8374;
+                    color: $color_3;
                     font-weight: 500;
                     cursor: pointer;
                     display: none;
@@ -70,7 +78,7 @@ body{
                         width: auto;
                         font-size: 20px;
                         cursor: pointer;
-                        color: #5C8374;
+                        color: $color_3;
                         padding: 0px 20px;
                         @media screen and (max-width: 992px) {
                             font-size: 16px;
@@ -80,7 +88,7 @@ body{
                         &:hover{
                             transform: scale(1.05);
                             transition: 0.25s;
-                            color: #93B1A6;
+                            color: $color_4;
                         }
                     }
                 }
@@ -105,7 +113,7 @@ body{
             position: absolute;
             top: 0px;
             right: -200px;
-            background-color: #5C8374;
+            background-color: $color_3;
             padding: 20px;
             transition: 0.2s;
             &.active{
@@ -117,7 +125,7 @@ body{
                 .nav{
                     font-size: 20px;
                     cursor: pointer;
-                    color: #040D12;
+                    color: $color_1;
                     padding: 10px;
                 }
                 .menu-close{
@@ -136,7 +144,7 @@ body{
     }
     
     .home-wrapper{
-        background: linear-gradient(180deg, rgba(4,13,18,1) 50%, rgba(19,51,51,1) 100%);
+        background: linear-gradient(180deg, $rgba_color_1 50%, $rgba_color_2 100%);
         padding-bottom: 100px;
         min-height: 100vh;
         @media screen and (max-width: 576px) {
@@ -190,7 +198,7 @@ body{
                     }
                     .sm-picture-container{
                         padding: 10px;
-                        border: 2px solid #93B1A6;
+                        border: 2px solid $color_4;
                         transform: rotate(4deg);
                         width: fit-content;
                         height: fit-content;
@@ -203,18 +211,18 @@ body{
                 .btn-wrapper{
                     padding: 20px 0px;
                     button{
-                        color: #040D12;
-                        background-color: #93B1A6;
+                        color: $color_1;
+                        background-color: $color_4;
                         font-size: 18px;
                         border: 0px;
                         padding: 10px 40px;
                         cursor: pointer;
                         border-radius: 4px;
-                        border: 2px solid #93B1A6;
+                        border: 2px solid $color_4;
                         &:hover{
-                            background-color: #183D3D;
-                            color: #93B1A6;
-                            border: 2px solid #93B1A6;
+                            background-color: $color_2;
+                            color: $color_4;
+                            border: 2px solid $color_4;
                             transition: 0.2s;
                         }
                         @media screen and (max-width: 1200px) {
@@ -239,7 +247,7 @@ body{
                 }
                 .picture-container{
                     padding: 10px;
-                    border: 2px solid #93B1A6;
+                    border: 2px solid $color_4;
                     transform: rotate(4deg);
                     width: fit-content;
                     height: fit-content;
@@ -262,7 +270,7 @@ body{
     }
 
     .edu-wrapper{
-        background: linear-gradient(0deg, rgba(4,13,18,1) 50%, rgba(19,51,51,1) 100%);
+        background: linear-gradient(0deg, $rgba_color_1 50%, $rgba_color_2 100%);
         position: relative;
         overflow: hidden;
         padding-top: 40px;
@@ -346,7 +354,7 @@ body{
                 }
                 .border-line{
                     width: 200px;
-                    background: #93B1A6;
+                    background: $color_4;
                     height: 2px;
                     @media screen and (max-width: 1200px) {
                         height: 1px;
@@ -394,26 +402,26 @@ body{
                 }
                 .details-btn{ 
                     margin-top: 25px;
-                    border: 1px solid #93B1A6;
+                    border: 1px solid $color_4;
                     width: auto;
                     display: inline-block;
                     padding: 5px 20px;
                     border-radius: 5px;
                     cursor: pointer;
                     font-size: 18px;
-                    background-color: #183D3D;
+                    background-color: $color_2;
                     &:hover{
-                        border: 1px solid #93B1A6;
-                        background-color: #93B1A6;
-                        color: #040D12;
+                        border: 1px solid $color_4;
+                        background-color: $color_4;
+                        color: $color_1;
                         transition: 0.2s;
                     }
                     &.exp{
-                        background-color: #040D12;
+                        background-color: $color_1;
                         &:hover{
-                            border: 1px solid #93B1A6;
-                            background-color: #93B1A6;
-                            color: #040D12;
+                            border: 1px solid $color_4;
+                            background-color: $color_4;
+                            color: $color_1;
                             transition: 0.2s;
                         }
                     }
@@ -442,7 +450,7 @@ body{
         }
     }
     .experiece-wrapper{
-        background: linear-gradient(180deg, rgba(4,13,18,1) 50%, rgba(19,51,51,1) 100%);
+        background: linear-gradient(180deg, $rgba_color_1 50%, $rgba_color_2 100%);
         .exp-side-image{
             background-image: url('../images/experience.jpg');
             background-position: center;
@@ -474,7 +482,7 @@ body{
     }
     .skills-wrapper{
         // padding: 50px 0px;
-        background: linear-gradient(0deg, rgba(4,13,18,1) 50%, rgba(19,51,51,1) 100%);
+        background: linear-gradient(0deg, $rgba_color_1 50%, $rgba_color_2 100%);
         @media screen and (max-width: 576px) {
             padding: 0px 0px;
         }
@@ -524,7 +532,7 @@ body{
                     top: -10px;
                     display: block;
                     padding: 10px 15px;
-                    background-color: #040D12;
+                    background-color: $color_1;
                     @media screen and (max-width: 1200px) {
                         font-size: 22px;
                     }
@@ -539,12 +547,12 @@ body{
                 }
                 .border-line{
                     width: 200px;
-                    background: #93B1A6;
+                    background: $color_4;
                     height: 2px;
                 }
                 .description{
                     font-size: 22px;
-                    border: 1px solid #93B1A6;
+                    border: 1px solid $color_4;
                     padding: 28px 28px;
                     padding-top: 40px;
                     border-radius: 10px;
@@ -574,7 +582,7 @@ body{
     }
     .contact-wrapper{
         padding: 50px 0px;
-        // background: linear-gradient(180deg, rgba(4,13,18,1) 50%, rgba(19,51,51,1) 100%);
+        // background: linear-gradient(180deg, $rgba_color_1 50%, $rgba_color_2 100%);
         .contact-container{
             .heading{
                 font-size: 35px;
@@ -599,9 +607,9 @@ body{
                     .icon{
                         height: 40px;
                         width: 40px;
-                        background-color: #183D3D;
+                        background-color: $color_2;
                         border-radius: 20%;
-                        border: 2px solid #93B1A6;
+                        border: 2px solid $color_4;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -620,9 +628,9 @@ body{
                     }
                     a{
                         text-decoration: none;
-                        color: #5C8374;
+                        color: $color_3;
                         &:hover{
-                            color: #93B1A6;
+                            color: $color_4;
                             transition: 0.25s;
                         }
                         .link{
@@ -643,15 +651,15 @@ body{
                     justify-content: center;
                 }
                 .download-resume{
-                    color: #040D12;
-                    background-color: #93B1A6;
+                    color: $color_1;
+                    background-color: $color_4;
                     border: 0px;
                     font-size: 20px;
                     padding: 10px 40px;
                     cursor: pointer;
                     border-radius: 4px;
                     text-decoration: none;
-                    border: 2px solid #93B1A6;
+                    border: 2px solid $color_4;
                     @media screen and (max-width: 1200px) {
                         font-size: 20px;
                     }
@@ -663,9 +671,9 @@ body{
                         font-size: 14px;
                     }
                     &:hover{
-                        background-color: #183D3D;
-                        color: #93B1A6;
-                        border: 2px solid #93B1A6;
+                        background-color: $color_2;
+                        color: $color_4;
+                        border: 2px solid $color_4;
                         transition: 0.2s;
                     }
                 }
@@ -675,7 +683,7 @@ body{
     .footer{
         text-align: center;
         font-size: 18px;
-        color: #183D3D;
+        color: $color_2;
         padding-bottom: 20px;
         @media screen and (max-width: 768px) {
             font-size: 14px;
@@ -688,7 +696,7 @@ body{
 .modal-container{
     .more-details-container{
         padding: 20px 20px;
-        color: #93B1A6;
+        color: $color_4;
         @media screen and (max-width: 768px) {
             padding: 0px;
         }
@@ -721,12 +729,12 @@ body{
         .border-line_1{
             width: 200px;
             height: 2px;
-            background-color: #93B1A6;
+            background-color: $color_4;
         }
         .border-line{
             width: 200px;
             height: 1px;
-            background-color: #93B1A6;
+            background-color: $color_4;
             @media screen and (max-width: 768px) {
                 width: 100px;
             }

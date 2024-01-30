@@ -19,7 +19,7 @@ function Experience({ setIsOpen, setModalContent }){
                                 <div className='title'>Assistant Frontend Developer</div>
                                 <div className='border-line'></div>
                                 <div className='description'>Gray Matrix Solutions Pvt. Ltd.</div>
-                                <div className='date'>June 2021 to Sept 2022</div>
+                                <div className='date'>Oct 2021 to June 2022</div>
                             </div>
                             <div className='info-wrapper' data-aos="fade-up">
                                 <div className='title'>Associate Developer - FEE</div>
@@ -31,7 +31,7 @@ function Experience({ setIsOpen, setModalContent }){
                                 <div className='title'>Frontend Developer</div>
                                 <div className='border-line'></div>
                                 <div className='description'>Bysness Inc, Pinsaar Software Technologies Pvt. Ltd. </div>
-                                <div className='date'>June 2018 to Sept 2019</div>
+                                <div className='date'>Sept 2018 to June 2019</div>
                             </div>
                             <div className='details-btn-wrap' data-aos="fade-up">
                                 <div className='details-btn exp' onClick={() => {setIsOpen(true); setModalContent('experience')}}>Know More</div>
