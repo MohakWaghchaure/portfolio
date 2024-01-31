@@ -26,7 +26,7 @@ function GetInTouch(){
                                     <div className='icon'>
                                         <img src={linkedin} />
                                     </div>
-                                    <a href="https://www.linkedin.com/in/mohak-waghchaure-410b0bb3/" target="_blank">
+                                    <a href="https://www.linkedin.com//in/mohakwaghchaure/" target="_blank">
                                     <div className='link'>/in/mohakwaghchaure/</div>
                                     </a>
                                 </div>
