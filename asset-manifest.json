@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1235ae92.css",
-    "main.js": "/portfolio/static/js/main.8ff5dcdb.js",
+    "main.js": "/portfolio/static/js/main.c8524e1c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/experience.jpg": "/portfolio/static/media/experience.9def6d7aa5cf99e9ce7e.jpg",
     "static/media/profile.jpeg": "/portfolio/static/media/profile.0021566a52a9e5e835f9.jpeg",
     "static/media/education.jpg": "/portfolio/static/media/education.a200dea9d6eba2e68195.jpg",
-    "static/media/Mohak_Sunil_Waghchaure_Resume.pdf": "/portfolio/static/media/Mohak_Sunil_Waghchaure_Resume.b2b31dd4eb37d66a6202.pdf",
+    "static/media/Mohak_Sunil_Waghchaure_Resume.pdf": "/portfolio/static/media/Mohak_Sunil_Waghchaure_Resume.bb7db27e0117e53f8b59.pdf",
     "static/media/skills.png": "/portfolio/static/media/skills.cd99baaef59f174f280b.png",
     "static/media/graduation-cap.png": "/portfolio/static/media/graduation-cap.e49b651eadacfc8e38c1.png",
     "static/media/phone.png": "/portfolio/static/media/phone.18dceb7c1545b1603ff3.png",
@@ -16,11 +16,11 @@
     "static/media/github.png": "/portfolio/static/media/github.4d72b1fa63d09ec749f1.png",
     "index.html": "/portfolio/index.html",
     "main.1235ae92.css.map": "/portfolio/static/css/main.1235ae92.css.map",
-    "main.8ff5dcdb.js.map": "/portfolio/static/js/main.8ff5dcdb.js.map",
+    "main.c8524e1c.js.map": "/portfolio/static/js/main.c8524e1c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1235ae92.css",
-    "static/js/main.8ff5dcdb.js"
+    "static/js/main.c8524e1c.js"
   ]
 }
