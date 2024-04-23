@@ -37,19 +37,19 @@
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
-    background-color: #040D12;
+    background-color: #000000;
   }
   /* Track */
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 1px #040D12; 
+    box-shadow: inset 0 0 1px #000000; 
     border-radius: 5px;
   }
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #5C8374; 
+    background: #F4DFC8; 
     border-radius: 10px;
   }
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #5C8374; 
+    background: #F4DFC8; 
   }

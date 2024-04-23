@@ -20,6 +20,7 @@ body{
     // background: linear-gradient(180deg, rgba_color_1 50%, $rgba_color_2 100%);
     // background: linear-gradient(0deg, rgba_color_1 50%, $rgba_color_2 100%);
     color: $color_4;
+    
     .header-wrapper{
         background-color: $color_1;
         .header-container{
@@ -692,7 +693,8 @@ body{
             font-size: 14px;
             padding-bottom: 15px;
         }
-    }    
+    }   
+     
 }
 
 
