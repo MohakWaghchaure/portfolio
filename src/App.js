@@ -24,8 +24,8 @@ const customStyles = {
     // left: '0',
     // right: '0',
     // bottom: '0',
-    border: '2px solid #93B1A6',
-    backgroundColor: '#040D12',
+    border: '2px solid #F4DFC8',
+    backgroundColor: '#000000',
   },
 };
 

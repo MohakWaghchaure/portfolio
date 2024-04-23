@@ -22,7 +22,7 @@ function Home(){
                                 </div> 
                             </div>
                             <div className='text-2 pt-2'>A software developer specialized in frontend engineering</div>
-                            <div className='text-2'>based in New York City</div>
+                            <div className='text-2'>Based in New York City</div>
                             <div className='btn-wrapper'>
                                 <button onClick={scrollToContact}>GET IN TOUCH</button>
                             </div>
