@@ -1,5 +1,7 @@
 import { Fragment } from 'react';
 import Profile from '../images/profile.jpeg';
+import BackgroundCircles from '../components/BackgroundCircles';
+import './animations.js'
  
 function Home(){
     
@@ -18,7 +20,7 @@ function Home(){
                             <div className='text-1'>I'm Mohak</div>
                             <div className='sm-screen-picture-wrapper'>
                                 <div className='sm-picture-container'>
-                                    <img src={Profile}/>
+                                    <img src={Profile} style={{filter: 'grayscale(0.5)'}}/>
                                 </div> 
                             </div>
                             <div className='text-2 pt-2'>A software developer specialized in frontend engineering</div>
@@ -29,7 +31,7 @@ function Home(){
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-6 picture-wrapper' data-aos="fade-left" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0" >
                             <div className='picture-container'>
-                                <img src={Profile}/>
+                                <img src={Profile} style={{filter: 'grayscale(0.5)'}}/>
                             </div>
                         </div>
                     </div>

@@ -10,19 +10,21 @@ body{
     display: block;
     text-align: left;
     font-family: 'Noto Serif Display', serif;
-}
-.test{
-    background-color: $color_1;
+    
 }
 .body-container{
     background-color: $color_1;
     width: 100%;
-    // background: linear-gradient(180deg, rgba_color_1 50%, $rgba_color_2 100%);
-    // background: linear-gradient(0deg, rgba_color_1 50%, $rgba_color_2 100%);
     color: $color_4;
-    
+    position: relative;
     .header-wrapper{
-        background-color: $color_1;
+        background-color: transparent;
+        transition: 0.2s;
+        &.inverted{
+            background-color: $color_1;
+
+            transition: 0.2s;
+        }
         .header-container{
             padding: 20px 0px;
             @media screen and (max-width: 768px) {
@@ -141,26 +143,28 @@ body{
             }
         }
     }
-    
     .home-wrapper{
-        // background: linear-gradient(180deg, $rgba_color_1 50%, $rgba_color_2 100%);
+        z-index: 10;
         padding-bottom: 100px;
         min-height: 100vh;
+        position: relative;
+        overflow: hidden;
         @media screen and (max-width: 576px) {
             text-align: center;
             padding-bottom: 20px;
         }
         .home-container{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding-top: 180px;
-                padding-bottom: 20px;
-                @media screen and (max-width: 576px) {
-                    text-align: center;
-                    padding-top: 80px;
-                }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 180px;
+            padding-bottom: 20px;
+            @media screen and (max-width: 576px) {
+                text-align: center;
+                padding-top: 80px;
+            }
             .info-wrapper{
+                z-index: 10;
                 .text-1{
                     font-size: 45px;
                     @media screen and (max-width: 1200px) {
@@ -197,7 +201,7 @@ body{
                     }
                     .sm-picture-container{
                         padding: 10px;
-                        border: 2px solid $color_5;
+                        border: 2px solid $color_4;
                         transform: rotate(4deg);
                         width: fit-content;
                         height: fit-content;
@@ -238,6 +242,7 @@ body{
                 }
             }
             .picture-wrapper{
+                z-index: 10;    
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -269,7 +274,7 @@ body{
     }
 
     .edu-wrapper{
-        // background: linear-gradient(0deg, $rgba_color_1 50%, $rgba_color_2 100%);
+        z-index: 10;
         position: relative;
         overflow: hidden;
         padding-top: 40px;
@@ -289,6 +294,7 @@ body{
             width: 35%;
             left: -45px;
             top: -25px;
+            z-index: 10;
             filter: grayscale(100%);
             @media screen and (max-width: 768px) {
                 width: 25%;
@@ -451,7 +457,7 @@ body{
         }
     }
     .experiece-wrapper{
-        // background: linear-gradient(180deg, $rgba_color_1 50%, $rgba_color_2 100%);
+        z-index: 10;
         .exp-side-image{
             background-image: url('../images/experience.jpg');
             background-position: center;
@@ -463,6 +469,7 @@ body{
             width: 50%;
             right: -45px;
             top: -35px;
+            z-index: 10;
             filter: grayscale(100%);
             @media screen and (max-width: 992px) {
                 width: 40%;
@@ -483,8 +490,7 @@ body{
         }
     }
     .skills-wrapper{
-        // padding: 50px 0px;
-        // background: linear-gradient(0deg, $rgba_color_1 50%, $rgba_color_2 100%);
+        z-index: 10;
         @media screen and (max-width: 576px) {
             padding: 0px 0px;
         }
@@ -585,7 +591,8 @@ body{
     }
     .contact-wrapper{
         padding: 50px 0px;
-        // background: linear-gradient(180deg, $rgba_color_1 50%, $rgba_color_2 100%);
+        z-index: 10;
+        position: relative;
         .contact-container{
             .heading{
                 font-size: 35px;
@@ -685,6 +692,7 @@ body{
         }
     }
     .footer{
+        z-index: 10;
         text-align: center;
         font-size: 18px;
         color: $color_5;

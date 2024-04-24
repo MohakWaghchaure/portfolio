@@ -2,9 +2,16 @@ import { useState, Fragment } from 'react';
 import HamburgerMenu from '../images/icons/menu-bar.png'
  
 function Header({setIsOpen, setModalContent}){
-    const [mobileMenu, setMobileMenu] = useState(false)
- 
+    const [mobileMenu, setMobileMenu] = useState(false);
 
+    window.onscroll = function() {
+        let scrollVal = 100;
+        if (window.scrollY >= scrollVal) {
+            document.querySelector(".header-wrapper").classList.add("inverted");
+        } else {
+            document.querySelector(".header-wrapper").classList.remove("inverted");
+        }
+    };
 
     function scrollToHome(){
         const divElement = document.getElementById('home-section-anchor').offsetTop;
