@@ -45,7 +45,7 @@ function Header({setIsOpen, setModalContent}){
                         </div>
                         <div className='col-lg-7 col-md-7 col-sm-7 col-6 nav-wrapper'>
                             <div className='row nav-container'>
-                                <div className='nav' onClick={() => {setIsOpen(true); setModalContent('about')}}>About</div>
+                                {/* <div className='nav' onClick={() => {setIsOpen(true); setModalContent('about')}}>About</div> */}
                                 <div className='nav' onClick={scrollToEdu}>Education</div>
                                 <div className='nav' onClick={scrollToExp}>Experience</div>
                                 <div className='nav' onClick={scrollToskills}>Skills</div>
