@@ -15,6 +15,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from './components/Footer';
 import BackgroundCircles from './components/BackgroundCircles.js'
+import Projects from './components/Projects.js';
+import ProjectDetails from './components/ProjectDetails.js';
 
 Modal.setAppElement('#root');
 
@@ -55,6 +57,7 @@ function App() {
       <Home></Home>
       <Education setIsOpen={setIsOpen} setModalContent={setModalContent}></Education>
       <Experience setIsOpen={setIsOpen} setModalContent={setModalContent}></Experience>
+      <Projects></Projects>
       <Skills></Skills>
       <GetInTouch></GetInTouch>
       <Footer></Footer>     
@@ -65,6 +68,8 @@ function App() {
           {modalContent === 'about' && <About></About>}
           {modalContent === 'education' && <EducationDetails></EducationDetails>}
           {modalContent === 'experience' && <ExperienceDetails></ExperienceDetails>}
+          {modalContent === 'project_1' && <ProjectDetails></ProjectDetails>}
+          
           </div>
           <span className='modal-close' onClick={closeModal}></span>
         </div>

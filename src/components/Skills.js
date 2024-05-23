@@ -1,6 +1,5 @@
 import { Fragment } from 'react';
-import SkillsImage from '../images/icons/skills.png'
-
+import SkillsImage from '../images/icons/skills.png';
  
 function Skills(){
     return(

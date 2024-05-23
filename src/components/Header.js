@@ -25,6 +25,10 @@ function Header({setIsOpen, setModalContent}){
         const divElement = document.getElementById('exp-section-anchor').offsetTop;
         window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
     }
+    function scrollToProjects(){
+        const divElement = document.getElementById('project-section-anchor').offsetTop;
+        window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
+    }
     function scrollToskills(){
         const divElement = document.getElementById('skills-section-anchor').offsetTop;
         window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
@@ -48,6 +52,7 @@ function Header({setIsOpen, setModalContent}){
                                 {/* <div className='nav' onClick={() => {setIsOpen(true); setModalContent('about')}}>About</div> */}
                                 <div className='nav' onClick={scrollToEdu}>Education</div>
                                 <div className='nav' onClick={scrollToExp}>Experience</div>
+                                <div className='nav' onClick={scrollToProjects}>Projects</div>
                                 <div className='nav' onClick={scrollToskills}>Skills</div>
                                 <div className='nav' onClick={scrollToContact}>Contact</div>
                             </div>
