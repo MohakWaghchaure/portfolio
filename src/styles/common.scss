@@ -585,6 +585,7 @@ body{
                         border: 1px solid $color_4;
                         padding: 30px 35px;
                         transition: 0.2s;
+                        min-height: 400px;
                         cursor: grab;
                         &:hover{
                             // box-shadow: 0 0 10px 0px $color5;
@@ -595,20 +596,28 @@ body{
                             font-size: 2rem;
                             padding-bottom: 10px;
                             color: $color_4;
+                            min-height: 120px;
                         }
                         .sub-headline{
                             font-size: 1rem;
                             padding-bottom: 10px;
-                            color: $color_2;
+                            color: $color_3;
+                            // min-height: 100px;
                         }
                         .description{
-                            font-size: 0.9rem;
+                            font-size: 1rem;
                             padding-bottom: 20px;
-                            color: $color_3;
-                            min-height: 150px;
+                            color: $color_2;
+                            // min-height: 200px;
+                            white-space: normal;
+                            overflow: hidden;
                         }
                         .btn-wrapper{
-                            padding-bottom: 10px;
+                            position: absolute;
+                            bottom: 7%;
+                            left: 0%;
+                            min-width: 100%;
+                            padding: 0px 25px;
                             .btn{
                                 color: $color_4;
                                 min-width: 100%;
