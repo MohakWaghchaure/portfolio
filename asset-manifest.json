@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d090985c.css",
-    "main.js": "/portfolio/static/js/main.785c2cbc.js",
+    "main.css": "/portfolio/static/css/main.78fc0321.css",
+    "main.js": "/portfolio/static/js/main.68103793.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/profile.jpeg": "/portfolio/static/media/profile.97080ca0e1a1ddb07e80.jpeg",
+    "static/media/profile.jpeg": "/portfolio/static/media/profile.85b6caf955813ce994d1.jpeg",
     "static/media/education.jpg": "/portfolio/static/media/education.e52afe75e9d456691b99.jpg",
     "static/media/experience.jpg": "/portfolio/static/media/experience.d1ff635a064f70e25516.jpg",
     "static/media/Mohak_Sunil_Waghchaure_Resume.pdf": "/portfolio/static/media/Mohak_Sunil_Waghchaure_Resume.bb7db27e0117e53f8b59.pdf",
     "static/media/skills.png": "/portfolio/static/media/skills.064083c745e988823088.png",
+    "static/media/projects.png": "/portfolio/static/media/projects.8fb5a0488031dd2fbe6e.png",
     "static/media/graduation-cap.png": "/portfolio/static/media/graduation-cap.3a1c1f9cd4681e8d7e6d.png",
     "static/media/phone.png": "/portfolio/static/media/phone.18dceb7c1545b1603ff3.png",
     "static/media/email.png": "/portfolio/static/media/email.86935326b89290377085.png",
     "static/media/github.png": "/portfolio/static/media/github.4d72b1fa63d09ec749f1.png",
     "index.html": "/portfolio/index.html",
-    "main.d090985c.css.map": "/portfolio/static/css/main.d090985c.css.map",
-    "main.785c2cbc.js.map": "/portfolio/static/js/main.785c2cbc.js.map",
+    "main.78fc0321.css.map": "/portfolio/static/css/main.78fc0321.css.map",
+    "main.68103793.js.map": "/portfolio/static/js/main.68103793.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d090985c.css",
-    "static/js/main.785c2cbc.js"
+    "static/css/main.78fc0321.css",
+    "static/js/main.68103793.js"
   ]
 }
