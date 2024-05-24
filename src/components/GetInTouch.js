@@ -3,7 +3,7 @@ import github from '../images/icons/github.png';
 import linkedin from '../images/icons/linkedin.png';
 import phone from '../images/icons/phone.png';
 import email from '../images/icons/email.png';
-import resumePdf from '../docs/Mohak_Sunil_Waghchaure_Resume.pdf'
+import resumePdf from '../docs/Mohak_Sunil_Waghchaure_Resume.pdf';
  
 function GetInTouch(){
     return(

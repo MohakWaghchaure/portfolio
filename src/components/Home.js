@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import Profile from '../images/profile.jpeg';
-import BackgroundCircles from '../components/BackgroundCircles';
+import resumePdf from '../docs/Mohak_Sunil_Waghchaure_Resume.pdf';
 import './animations.js';
  
 function Home(){
@@ -43,7 +43,7 @@ function Home(){
                                     <button onClick={scrollToContact}>GET IN TOUCH</button>
                                 </div>
                                 <div className='resume-wrap'>
-                                    <a className='resume' href="/portfolio/static/media/Mohak_Sunil_Waghchaure_Resume.pdf">Download Resume</a>
+                                    <a href={resumePdf} download='Mohak_Waghchaure_resume' className='resume'>Download Resume</a>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ function Home(){
                                     <button onClick={scrollToContact}>GET IN TOUCH</button>
                                 </div>
                                 <div className='resume-wrap'>
-                                    <a className='resume' href="/portfolio/static/media/Mohak_Sunil_Waghchaure_Resume.pdf">Download Resume</a>
+                                    <a href={resumePdf} download='Mohak_Waghchaure_resume' className='resume'>Download Resume</a>
                                 </div>
                             </div>
                         </div>
