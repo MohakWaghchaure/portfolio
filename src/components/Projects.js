@@ -6,32 +6,55 @@ import ProjectsImage from '../images/icons/projects.png';
  
 function Projects(){
     var sliderSettings = {
-        dots: false,
+        // dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
+        speed: 4000,
+        arrows: false,
+        autoplaySpeed: 4000,
         responsive: [
             {
-              breakpoint: 1024,
+                breakpoint: 1400,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  dots: true,
+                }
+              },
+            {
+              breakpoint: 1200,
               settings: {
                 slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: true,
               }
             },
             {
-              breakpoint: 480,
+                breakpoint: 992,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                }
+              },
+            {
+              breakpoint: 768,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                // initialSlide: 2
               }
             },
+            {
+                breakpoint: 576,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                }
+              },
           ]
       };
     return(
@@ -51,8 +74,8 @@ function Projects(){
                                     <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Talkk.ai</div>
-                                            <div className='description'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
-                                            <div className='sub-headline'>Associated with Gray Matrix Pvt Ltd</div>
+                                            <div className='description'>An AI-empowered humanoid robot that helps customers to self-serve with all the significant financial queries..</div>
+                                            <div className='sub-headline'>Associated with Gray Matrix Pvt. Ltd.</div>
                                             <div className='btn-wrapper'>
                                                 <button className='btn'>View</button>
                                             </div>
@@ -60,19 +83,9 @@ function Projects(){
                                     </div>
                                     <div className='card-wrapper'>
                                         <div className='card'>
-                                            <div className='headline'>Differential capital </div>
-                                            <div className='description'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
-                                            <div className='sub-headline'>Associated with Gray Matrix Pvt Ltd</div>
-                                            <div className='btn-wrapper'>
-                                                <button className='btn'>View</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='card-wrapper'>
-                                        <div className='card'>
-                                            <div className='headline'>Playing with Animations</div>
-                                            <div className='description'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
-                                            <div className='sub-headline'></div>
+                                            <div className='headline'>Feelingfab</div>
+                                            <div className='description'>Website for a fitness program, which offers a sustainable lifestyle change for users.</div>
+                                            <div className='sub-headline'>Associated with Gray Matrix Pvt. Ltd.</div>
                                             <div className='btn-wrapper'>
                                                 <button className='btn'>View</button>
                                             </div>
@@ -81,8 +94,28 @@ function Projects(){
                                     <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Playing with Animations</div>
-                                            <div className='description'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+                                            <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website to create a more engaging and effective user experience..</div>
                                             <div className='sub-headline'></div>
+                                            <div className='btn-wrapper'>
+                                                <button className='btn'>View</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='card-wrapper'>
+                                        <div className='card'>
+                                            <div className='headline'>Sign language Translator</div>
+                                            <div className='description'>The hand glove consists of sensors and electronic assembly, which gathers the data according to the position and movement of each  finger and hand..</div>
+                                            <div className='sub-headline'>Capstone Project - Undergrad</div>
+                                            <div className='btn-wrapper'>
+                                                <button className='btn'>View</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='card-wrapper'>
+                                        <div className='card'>
+                                            <div className='headline'>TIFM</div>
+                                            <div className='description'>An ERP application system that allows an organization to automate and manage the business..</div>
+                                            <div className='sub-headline'>Associated with Bysness Inc.</div>
                                             <div className='btn-wrapper'>
                                                 <button className='btn'>View</button>
                                             </div>

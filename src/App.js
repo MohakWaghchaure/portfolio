@@ -57,7 +57,7 @@ function App() {
       <Home></Home>
       <Education setIsOpen={setIsOpen} setModalContent={setModalContent}></Education>
       <Experience setIsOpen={setIsOpen} setModalContent={setModalContent}></Experience>
-      {/* <Projects></Projects> */}
+      <Projects></Projects>
       <Skills></Skills>
       <GetInTouch></GetInTouch>
       <Footer></Footer>     
