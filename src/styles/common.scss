@@ -609,7 +609,7 @@ body{
                         border: 1px solid $color_4;
                         padding: 30px 35px;
                         transition: 0.2s;
-                        min-height: 450px;
+                        min-height: 400px;
                         cursor: grab;
                         &:hover{
                             // box-shadow: 0 0 10px 0px $color5;
@@ -618,19 +618,19 @@ body{
                             box-shadow: 0 0 10px $color_5;
                         }
                         .headline{
-                            font-size: 2rem;
+                            font-size: 28px;
                             padding-bottom: 10px;
                             color: $color_4;
                             min-height: 120px;
                         }
                         .sub-headline{
-                            font-size: 1rem;
+                            font-size: 16px;
                             padding-bottom: 10px;
                             color: $color_3;
                             // min-height: 100px;
                         }
                         .description{
-                            font-size: 1rem;
+                            font-size: 16px;
                             padding-bottom: 20px;
                             color: $color_2;
                             // min-height: 200px;
@@ -648,7 +648,7 @@ body{
                                 min-width: 100%;
                                 padding: 8px 18px;
                                 border: 1px solid $color_4;
-                                font-size: 1rem;
+                                font-size: 18px;
                                 &:hover{
                                     border: 1px solid $color_5;
                                     background-color: $color_2;
@@ -996,5 +996,49 @@ body{
                 font-size: 16px;
             }
         }        
-    }    
+    }  
+    .project-details-container{
+        .p-headline{
+            font-size: 28px;
+            padding-bottom: 20px;
+            color: $color_5;
+            @media screen and (max-width: 1200px) {
+                font-size: 20px;
+            }
+            @media screen and (max-width: 992px) {
+                font-size: 18px;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+        .p-description{
+            font-size: 20px;
+            padding-bottom: 20px;
+            color: $color_2;
+            @media screen and (max-width: 1200px) {
+                font-size: 18px;
+            }
+            @media screen and (max-width: 992px) {
+                font-size: 15px;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+        .p-sub-headline{
+            font-size: 20px;
+            padding-bottom: 20px;
+            color: $color_2;
+            @media screen and (max-width: 1200px) {
+                font-size: 18px;
+            }
+            @media screen and (max-width: 992px) {
+                font-size: 15px;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 12px;
+            }
+        }
+    }
 }

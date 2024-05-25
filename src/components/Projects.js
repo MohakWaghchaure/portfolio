@@ -3,8 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import ProjectsImage from '../images/icons/projects.png';
 
- 
-function Projects(){
+function Projects({setIsOpen, setModalContent}){
     var sliderSettings = {
         // dots: false,
         infinite: true,
@@ -74,53 +73,53 @@ function Projects(){
                                     <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Talkk.ai</div>
-                                            <div className='description'>An AI-empowered humanoid robot that helps customers to self-serve with all the significant financial queries..</div>
+                                            <div className='description'>An AI-empowered humanoid robot that helps customers to self-serve..</div>
                                             <div className='sub-headline'>Associated with Gray Matrix Pvt. Ltd.</div>
                                             <div className='btn-wrapper'>
-                                                <button className='btn'>View</button>
+                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('talkkAi')}}>View</button>
                                             </div>
                                         </div>
                                     </div>
                                     <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Feelingfab</div>
-                                            <div className='description'>Website for a fitness program, which offers a sustainable lifestyle change for users.</div>
+                                            <div className='description'>Website for a fitness program, which offers a sustainable lifestyle change for users..</div>
                                             <div className='sub-headline'>Associated with Gray Matrix Pvt. Ltd.</div>
                                             <div className='btn-wrapper'>
-                                                <button className='btn'>View</button>
+                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('feelingfab')}}>View</button>
                                             </div>
                                         </div>
                                     </div>
                                     <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Playing with Animations</div>
-                                            <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website to create a more engaging and effective user experience..</div>
+                                            <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website..</div>
                                             <div className='sub-headline'></div>
                                             <div className='btn-wrapper'>
-                                                <button className='btn'>View</button>
+                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('playingWithAnimations')}}>View</button>
                                             </div>
                                         </div>
                                     </div>
                                     <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Sign language Translator</div>
-                                            <div className='description'>The hand glove consists of sensors and electronic assembly, which gathers the data according to the position and movement of each  finger and hand..</div>
+                                            <div className='description'>The hand glove consists of sensors and electronic assembly, which gathers the data according to the position..</div>
                                             <div className='sub-headline'>Capstone Project - Undergrad</div>
                                             <div className='btn-wrapper'>
-                                                <button className='btn'>View</button>
+                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('SignLanguageTranslator')}}>View</button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='card-wrapper'>
+                                    {/* <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>TIFM</div>
                                             <div className='description'>An ERP application system that allows an organization to automate and manage the business..</div>
                                             <div className='sub-headline'>Associated with Bysness Inc.</div>
                                             <div className='btn-wrapper'>
-                                                <button className='btn'>View</button>
+                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('project_5')}}>View</button>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     
                                 </Slider>
                                 {/* <div className='slider-arrows'>

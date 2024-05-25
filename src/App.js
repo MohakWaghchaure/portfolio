@@ -53,11 +53,11 @@ function App() {
 
   return (
     <div className="body-container">
-      <Header setIsOpen={setIsOpen} setModalContent={setModalContent}></Header>
+      <Header></Header>
       <Home></Home>
       <Education setIsOpen={setIsOpen} setModalContent={setModalContent}></Education>
       <Experience setIsOpen={setIsOpen} setModalContent={setModalContent}></Experience>
-      <Projects></Projects>
+      <Projects setIsOpen={setIsOpen} setModalContent={setModalContent}></Projects>
       <Skills></Skills>
       <GetInTouch></GetInTouch>
       <Footer></Footer>     
@@ -68,7 +68,11 @@ function App() {
           {modalContent === 'about' && <About></About>}
           {modalContent === 'education' && <EducationDetails></EducationDetails>}
           {modalContent === 'experience' && <ExperienceDetails></ExperienceDetails>}
-          {modalContent === 'project_1' && <ProjectDetails></ProjectDetails>}
+          {modalContent === 'talkkAi' && <ProjectDetails projectNumber={'talkkAi'}></ProjectDetails>}
+          {modalContent === 'feelingfab' && <ProjectDetails projectNumber={'feelingfab'}></ProjectDetails>}
+          {modalContent === 'playingWithAnimations' && <ProjectDetails projectNumber={'playingWithAnimations'}></ProjectDetails>}
+          {modalContent === 'SignLanguageTranslator' && <ProjectDetails projectNumber={'SignLanguageTranslator'}></ProjectDetails>}
+          {/* {modalContent === 'project_5' && <ProjectDetails projectNumber={'project_5'}></ProjectDetails>} */}
           
           </div>
           <span className='modal-close' onClick={closeModal}></span>
