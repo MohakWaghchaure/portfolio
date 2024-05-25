@@ -12,7 +12,7 @@ function ExperienceDetails(){
                 </div> */}
                 <div className='row'>
                     <div className='col-lg-4 col-md-6 col-sm-12 col-xs'>
-                        <div className='info-wrapper marking-arrow'>
+                        <div className='info-wrapper exp-details marking-arrow'>
                             <div className='title'>Assistant Frontend Developer</div>
                             <div className='border-line'></div>
                             <div className='description'>Gray Matrix Solutions Pvt. Ltd.</div>
