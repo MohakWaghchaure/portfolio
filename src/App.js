@@ -57,7 +57,7 @@ function App() {
       <Home></Home>
       <Education setIsOpen={setIsOpen} setModalContent={setModalContent}></Education>
       <Experience setIsOpen={setIsOpen} setModalContent={setModalContent}></Experience>
-      <Projects setIsOpen={setIsOpen} setModalContent={setModalContent}></Projects>
+      {/* <Projects setIsOpen={setIsOpen} setModalContent={setModalContent}></Projects> */}
       <Skills></Skills>
       <GetInTouch></GetInTouch>
       <Footer></Footer>     
@@ -68,10 +68,10 @@ function App() {
           {modalContent === 'about' && <About></About>}
           {modalContent === 'education' && <EducationDetails></EducationDetails>}
           {modalContent === 'experience' && <ExperienceDetails></ExperienceDetails>}
-          {modalContent === 'talkkAi' && <ProjectDetails projectNumber={'talkkAi'}></ProjectDetails>}
-          {modalContent === 'feelingfab' && <ProjectDetails projectNumber={'feelingfab'}></ProjectDetails>}
-          {modalContent === 'playingWithAnimations' && <ProjectDetails projectNumber={'playingWithAnimations'}></ProjectDetails>}
-          {modalContent === 'SignLanguageTranslator' && <ProjectDetails projectNumber={'SignLanguageTranslator'}></ProjectDetails>}
+          {/* {modalContent === 'talkkAi' && <ProjectDetails projectNumber={'talkkAi'}></ProjectDetails>} */}
+          {/* {modalContent === 'feelingfab' && <ProjectDetails projectNumber={'feelingfab'}></ProjectDetails>} */}
+          {/* {modalContent === 'playingWithAnimations' && <ProjectDetails projectNumber={'playingWithAnimations'}></ProjectDetails>} */}
+          {/* {modalContent === 'SignLanguageTranslator' && <ProjectDetails projectNumber={'SignLanguageTranslator'}></ProjectDetails>} */}
           {/* {modalContent === 'project_5' && <ProjectDetails projectNumber={'project_5'}></ProjectDetails>} */}
           
           </div>
