@@ -63,12 +63,12 @@
   overflow: hidden;
   .backgroundCircle{
     position: absolute;
-    border: 1px solid $color_5;
+    border: 1px solid $color_2;
     border-radius: 50%;
     height: 400px;
     width: 400px;
     opacity: 0.5;
-    box-shadow: inset 0 0 20px $color_5;
+    box-shadow: inset 0 0 20px $color_2;
     &.circle_1{
       top: 34%;
       left: 72%;

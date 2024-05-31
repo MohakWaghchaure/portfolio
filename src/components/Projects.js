@@ -70,53 +70,53 @@ function Projects({setIsOpen, setModalContent}){
                         <div className='slider-wrapper'>
                             <div className='row'>
                                 <Slider {...sliderSettings}>
-                                    <div className='card-wrapper'>
+                                    {/* <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Talkk.ai</div>
                                             <div className='description'>An AI-empowered humanoid robot that helps customers to self-serve..</div>
                                             <div className='sub-headline'>Associated with Gray Matrix Pvt. Ltd.</div>
                                             <div className='btn-wrapper'>
-                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('talkkAi')}}>View</button>
+                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('talkkAi')}}>Know More</button>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Feelingfab</div>
                                             <div className='description'>Website for a fitness program, which offers a sustainable lifestyle change for users..</div>
                                             <div className='sub-headline'>Associated with Gray Matrix Pvt. Ltd.</div>
                                             <div className='btn-wrapper'>
-                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('feelingfab')}}>View</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='card-wrapper'>
-                                        <div className='card'>
-                                            <div className='headline'>Playing with Animations</div>
-                                            <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website..</div>
-                                            <div className='sub-headline'></div>
-                                            <div className='btn-wrapper'>
-                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('playingWithAnimations')}}>View</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='card-wrapper'>
-                                        <div className='card'>
-                                            <div className='headline'>Sign language Translator</div>
-                                            <div className='description'>The hand glove consists of sensors and electronic assembly, which gathers the data according to the position..</div>
-                                            <div className='sub-headline'>Capstone Project - Undergrad</div>
-                                            <div className='btn-wrapper'>
-                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('SignLanguageTranslator')}}>View</button>
+                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('feelingfab')}}>Know More</button>
                                             </div>
                                         </div>
                                     </div>
                                     {/* <div className='card-wrapper'>
                                         <div className='card'>
-                                            <div className='headline'>TIFM</div>
-                                            <div className='description'>An ERP application system that allows an organization to automate and manage the business..</div>
-                                            <div className='sub-headline'>Associated with Bysness Inc.</div>
+                                            <div className='headline'>Playing with Animations</div>
+                                            <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website..</div>
+                                            <div className='sub-headline'></div>
                                             <div className='btn-wrapper'>
-                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('project_5')}}>View</button>
+                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('playingWithAnimations')}}>Know More</button>
+                                            </div>
+                                        </div>
+                                    </div> */}
+                                    {/* <div className='card-wrapper'>
+                                        <div className='card'>
+                                            <div className='headline'>Sign language Translator</div>
+                                            <div className='description'>The hand glove consists of sensors and electronic assembly, which gathers the data according to the position..</div>
+                                            <div className='sub-headline'>Capstone Project - Undergrad</div>
+                                            <div className='btn-wrapper'>
+                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('SignLanguageTranslator')}}>Know More</button>
+                                            </div>
+                                        </div>
+                                    </div> */}
+                                    {/* <div className='card-wrapper'>
+                                        <div className='card'>
+                                            <div className='headline'>Differential Capital</div>
+                                            <div className='description'>It offer various investment products, including a multi-strategy hedge fund..</div>
+                                            <div className='sub-headline'>Associated with Gray matrix Pvt. Ltd.</div>
+                                            <div className='btn-wrapper'>
+                                                <button className='btn' onClick={() => {setIsOpen(true); setModalContent('differentialCapital')}}>Know More</button>
                                             </div>
                                         </div>
                                     </div> */}

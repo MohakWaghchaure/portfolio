@@ -40,7 +40,7 @@ function Home(){
                             </div>
                             <div className='buttons-container'>
                                 <div className='btn-wrapper'>
-                                    <button onClick={scrollToContact}>GET IN TOUCH</button>
+                                    <button onClick={scrollToContact}>Get In Touch</button>
                                 </div>
                                 <div className='resume-wrap'>
                                     <a href={resumePdf} download='Mohak_Waghchaure_resume' className='resume'>Download Resume</a>
@@ -68,7 +68,7 @@ function Home(){
                             <div className='text-2 highlight'>Let's create something amazing together!</div>
                             <div className='sm-buttons-container'>
                                 <div className='btn-wrapper'>
-                                    <button onClick={scrollToContact}>GET IN TOUCH</button>
+                                    <button onClick={scrollToContact}>Get In Touch</button>
                                 </div>
                                 <div className='resume-wrap'>
                                     <a href={resumePdf} download='Mohak_Waghchaure_resume' className='resume'>Download Resume</a>

@@ -25,10 +25,10 @@ function Header({setIsOpen, setModalContent}){
         const divElement = document.getElementById('exp-section-anchor').offsetTop;
         window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
     }
-    // function scrollToProjects(){
-    //     const divElement = document.getElementById('project-section-anchor').offsetTop;
-    //     window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
-    // }
+    function scrollToProjects(){
+        const divElement = document.getElementById('project-section-anchor').offsetTop;
+        window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
+    }
     function scrollToskills(){
         const divElement = document.getElementById('skills-section-anchor').offsetTop;
         window.scrollTo({ top: divElement - 50, behavior: 'smooth' });
@@ -44,14 +44,14 @@ function Header({setIsOpen, setModalContent}){
                 <div className='container header-container'>
                     <div className='row'>
                         <div className='col-lg-5 col-md-5 col-sm-5 col-6 logo-wrapper'>
-                            <div className='logo' onClick={scrollToHome}>Mohak Sunil Waghchaure</div>
-                            <div className='logo-small' onClick={scrollToHome}>MSW</div>
+                            <div className='logo' onClick={scrollToHome}><span className='special-symbol'>&lt;</span> Mohak Sunil Waghchaure / <span className='special-symbol'>&gt;</span></div>
+                            <div className='logo-small' onClick={scrollToHome}><span className='special-symbol'>&lt;</span> MSW / <span className='special-symbol'>&gt;</span></div>
                         </div>
                         <div className='col-lg-7 col-md-7 col-sm-7 col-6 nav-wrapper'>
                             <div className='row nav-container'>
                                 <div className='nav' onClick={scrollToEdu}>Education</div>
                                 <div className='nav' onClick={scrollToExp}>Experience</div>
-                                {/* <div className='nav' onClick={scrollToProjects}>Projects</div> */}
+                                <div className='nav' onClick={scrollToProjects}>Projects</div>
                                 <div className='nav' onClick={scrollToskills}>Skills</div>
                                 <div className='nav' onClick={scrollToContact}>Contact</div>
                             </div>
@@ -65,12 +65,13 @@ function Header({setIsOpen, setModalContent}){
                     <div className='row nav-container'>
                         <div className='nav' onClick={scrollToEdu}>Education</div>
                         <div className='nav' onClick={scrollToExp}>Experience</div>
-                        {/* <div className='nav' onClick={scrollToProjects}>Projects</div> */}
+                        <div className='nav' onClick={scrollToProjects}>Projects</div>
                         <div className='nav' onClick={scrollToskills}>Skills</div>
                         <div className='nav' onClick={scrollToContact}>Contact</div>
                         <span className='menu-close' onClick={() => setMobileMenu(!mobileMenu)}></span>
                     </div>
                 </div>
+                <div className='highlight-line'></div>
             </div>
             
         </Fragment>
