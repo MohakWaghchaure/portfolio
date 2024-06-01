@@ -8,7 +8,7 @@ function Skills(){
                 <div className='container'>
                     <div className='skills-container'>
                         <div className='heading-wrap' data-aos="fade-up">
-                            <div className='heading'>SKILLS</div>
+                            <div className='heading'>Skills</div>
                             <div className='heading-icon'>
                                 <img src={SkillsImage}/>
                             </div>

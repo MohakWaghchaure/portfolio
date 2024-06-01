@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import EducationIcon from '../images/icons/graduation-cap.png'
+import EducationIcon from '../images/icons/education.png'
  
 function Education({ setIsOpen, setModalContent }){
     return(
@@ -11,7 +11,7 @@ function Education({ setIsOpen, setModalContent }){
                         <div className='col-lg-5 col-md-5 col-sm-3'></div>
                         <div className='col-lg-7 col-md-7 col-sm-9 col-xs'>
                             <div className='heading-wrap' data-aos="fade-up">
-                                <div className='heading'>EDUCATION</div>
+                                <div className='heading'>Education</div>
                                 <div className='heading-icon'>
                                     <img src={EducationIcon}/>
                                 </div>

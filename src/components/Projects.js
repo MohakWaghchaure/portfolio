@@ -62,7 +62,7 @@ function Projects({setIsOpen, setModalContent}){
                 <div className='container'>
                     <div className='projects-container'>
                         <div className='heading-wrap' data-aos="fade-up">
-                            <div className='heading'>PROJECTS</div>
+                            <div className='heading'>Projects</div>
                             <div className='heading-icon'>
                                 <img src={ProjectsImage}/>
                             </div>
@@ -90,7 +90,7 @@ function Projects({setIsOpen, setModalContent}){
                                             </div>
                                         </div>
                                     </div>
-                                    {/* <div className='card-wrapper'>
+                                    <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Playing with Animations</div>
                                             <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website..</div>
@@ -99,18 +99,18 @@ function Projects({setIsOpen, setModalContent}){
                                                 <button className='btn' onClick={() => {setIsOpen(true); setModalContent('playingWithAnimations')}}>Know More</button>
                                             </div>
                                         </div>
-                                    </div> */}
-                                    {/* <div className='card-wrapper'>
+                                    </div>
+                                    <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Sign language Translator</div>
-                                            <div className='description'>The hand glove consists of sensors and electronic assembly, which gathers the data according to the position..</div>
+                                            <div className='description'>The glove converts ASL into english alphabets as per the hand gestures..</div>
                                             <div className='sub-headline'>Capstone Project - Undergrad</div>
                                             <div className='btn-wrapper'>
                                                 <button className='btn' onClick={() => {setIsOpen(true); setModalContent('SignLanguageTranslator')}}>Know More</button>
                                             </div>
                                         </div>
-                                    </div> */}
-                                    {/* <div className='card-wrapper'>
+                                    </div>
+                                    <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Differential Capital</div>
                                             <div className='description'>It offer various investment products, including a multi-strategy hedge fund..</div>
@@ -119,7 +119,7 @@ function Projects({setIsOpen, setModalContent}){
                                                 <button className='btn' onClick={() => {setIsOpen(true); setModalContent('differentialCapital')}}>Know More</button>
                                             </div>
                                         </div>
-                                    </div> */}
+                                    </div>
                                     
                                 </Slider>
                                 {/* <div className='slider-arrows'>

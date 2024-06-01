@@ -4,6 +4,7 @@ import linkedin from '../images/icons/linkedin.png';
 import phone from '../images/icons/phone.png';
 import email from '../images/icons/email.png';
 import resumePdf from '../docs/Mohak_Sunil_Waghchaure_Resume.pdf';
+import ContactIcon from '../images/icons/phone-call.png';
  
 function GetInTouch(){
     return(
@@ -11,7 +12,12 @@ function GetInTouch(){
             <div className='contact-wrapper' id="contact-section-anchor">
                 <div className='container'>
                     <div className='row contact-container' data-aos="fade-up">
-                        <div className='heading'>GET IN TOUCH</div>
+                        <div className='heading-wrap'>
+                            <div className='heading'>Get In Touch</div>
+                            <div className='heading-icon'>
+                                <img src={ContactIcon}/>
+                            </div>
+                        </div>
                         <div className='col-lg-6 col-md-6 col-sm-12 col-xs'>
                             <div className='info-wrapper'>
                                 <div className='socials-wrapper'>

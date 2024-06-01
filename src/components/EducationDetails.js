@@ -1,16 +1,9 @@
 import { Fragment } from 'react';
-import EducationIcon from '../images/icons/graduation-cap.png'
  
 function EducationDetails(){
     return(
         <Fragment>
             <div className='more-details-container eduDetails'>
-                {/* <div className='heading-wrap'>
-                    <div className='heading'>EDUCATION</div>
-                    <div className='heading-icon'>
-                        <img src={EducationIcon}/>
-                    </div>
-                </div> */}
                 <div className='info-wrapper pb-4'>
                     <div className='title'>Master of Science - Information Technology & Analytics</div>
                     <div className='border-line'></div>

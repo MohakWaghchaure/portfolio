@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import WorkIcon from '../images/icons/briefcase.png'
+import WorkIcon from '../images/icons/experience.png';
  
 function Experience({ setIsOpen, setModalContent }){
     return(
@@ -10,7 +10,7 @@ function Experience({ setIsOpen, setModalContent }){
                     <div className='row edu-container'>
                         <div className='col-lg-7 col-md-7 col-sm-9 col-xs'>
                             <div className='heading-wrap' data-aos="fade-up">
-                                <div className='heading'>WORK EXPERIENCE</div>
+                                <div className='heading'>Work Experiece</div>
                                 <div className='heading-icon'>
                                     <img src={WorkIcon}/>
                                 </div>
