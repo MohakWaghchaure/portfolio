@@ -70,7 +70,7 @@ function Projects({setIsOpen, setModalContent}){
                         <div className='slider-wrapper'>
                             <div className='row'>
                                 <Slider {...sliderSettings}>
-                                    {/* <div className='card-wrapper'>
+                                    <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Talkk.ai</div>
                                             <div className='description'>An AI-empowered humanoid robot that helps customers to self-serve..</div>
@@ -79,7 +79,7 @@ function Projects({setIsOpen, setModalContent}){
                                                 <button className='btn' onClick={() => {setIsOpen(true); setModalContent('talkkAi')}}>Know More</button>
                                             </div>
                                         </div>
-                                    </div> */}
+                                    </div>
                                     <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Feelingfab</div>
