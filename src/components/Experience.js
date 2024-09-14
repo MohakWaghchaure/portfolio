@@ -16,6 +16,12 @@ function Experience({ setIsOpen, setModalContent }){
                                 </div>
                             </div>
                             <div className='info-wrapper' data-aos="fade-up">
+                                <div className='title'>UX Design/Engineering Intern</div>
+                                <div className='border-line'></div>
+                                <div className='description'>Subconscious.ai, Inc.</div>
+                                <div className='date'>June 2024 to Present</div>
+                            </div>
+                            <div className='info-wrapper' data-aos="fade-up">
                                 <div className='title'>Assistant Frontend Developer</div>
                                 <div className='border-line'></div>
                                 <div className='description'>Gray Matrix Solutions Pvt. Ltd.</div>

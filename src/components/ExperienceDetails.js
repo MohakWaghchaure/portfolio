@@ -13,6 +13,28 @@ function ExperienceDetails(){
                 <div className='row'>
                     <div className='col-lg-4 col-md-6 col-sm-12 col-xs'>
                         <div className='info-wrapper exp-details marking-arrow'>
+                            <div className='title'>UX Design/Engineering Intern</div>
+                            <div className='border-line'></div>
+                            <div className='description'> Subconscious.ai, Inc.</div>
+                            <div className='date'>June 2024 to Present</div>
+                        </div>
+                    </div>
+                    <div className='col-lg-8 col-md-6 col-sm-12 col-xs'>
+                        <div className='role-description'>
+                            <ul>
+                                <li>Collaborated with designer and managers to create prototypes and UI specifications in Figma, in Agile methodology.</li>
+                                <li>Worked closely with a development team to design, build, and maintain high-performance web applications using Vercel, Next.js and React.js, increasing code usability by 40%. Used tailwind and GSAP animation library to enhance UI interactivity.</li>
+                                <li>Wrote clean, maintainable code in TypeScript and JavaScript, enhancing application stability by 20%. Utilized Docker for efficiency</li>
+                                <li>Troubleshot and resolved bugs promptly, Efficiently wrote API routes and seamlessly integrated with backend. Used git for version control. Explored and implemented open-source AI projects and libraries, driving innovation and enhancing application features</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-lg-4 col-md-6 col-sm-12 col-xs'>
+                        <div className='info-wrapper exp-details marking-arrow'>
                             <div className='title'>Assistant Frontend Developer</div>
                             <div className='border-line'></div>
                             <div className='description'>Gray Matrix Solutions Pvt. Ltd.</div>
