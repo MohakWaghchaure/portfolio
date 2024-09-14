@@ -13,7 +13,7 @@ function ExperienceDetails(){
                 <div className='row'>
                     <div className='col-lg-4 col-md-6 col-sm-12 col-xs'>
                         <div className='info-wrapper exp-details marking-arrow'>
-                            <div className='title'>UX Design/Engineering Intern</div>
+                            <div className='title'>UX Design / Engineering Intern</div>
                             <div className='border-line'></div>
                             <div className='description'> Subconscious.ai, Inc.</div>
                             <div className='date'>June 2024 to Present</div>

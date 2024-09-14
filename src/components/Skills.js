@@ -16,14 +16,14 @@ function Skills(){
                         <div className='row'>
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs'>
                                 <div className='skills-info-wrapper' data-aos="fade-up">
-                                    <div className='title'>Languages/ Technologies</div>
+                                    <div className='title'>Languages / Technologies</div>
                                     {/* <div className='border-line'></div> */}
                                     <div className='description'>HTML, CSS, SCSS, JavaScript, Typescript, NodeJS, ReactJS, NextJS, ExpressJS, C++, Python, R, SQL, Flexboxgrid, Bootstrap, Tailwind, MaterialUI, jQuery, GSAP, EJS, Pandas, NumPy</div>
                                 </div>
                             </div>
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs'>
                                 <div className='skills-info-wrapper' data-aos="fade-up">
-                                    <div className='title'>Applications/others</div>
+                                    <div className='title'>Applications / Others</div>
                                     {/* <div className='border-line'></div> */}
                                     <div className='description'>Vscode, WebStrom, Tableau, GitHub, Git, Firebase, SourceTree, FileZilla, Postman, Vercel, Docker, Figma, Canva, Agile development, Version control, CI/CD, SEO, User-centered design, CMS</div>
                                 </div>
