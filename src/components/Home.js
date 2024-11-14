@@ -2,6 +2,8 @@ import { Fragment } from 'react';
 import Profile from '../images/profile.jpeg';
 import resumePdf from '../docs/Mohak_Sunil_Waghchaure_Resume.pdf';
 import './animations.js';
+import github from '../images/icons/github.png';
+import linkedin from '../images/icons/linkedin.png';
  
 function Home(){
     
@@ -39,9 +41,23 @@ function Home(){
                                 </div>
                             </div>
                             <div className='buttons-container'>
-                                <div className='btn-wrapper'>
-                                    <button onClick={scrollToContact}>Get In Touch</button>
+                                <div className='home-socials'>
+                                    <div className='icon'>
+                                        <a className='link' href="https://www.linkedin.com/in/mohakwaghchaure/" target="_blank"><img src={linkedin} /></a>
+                                    </div>
+                                    <div className='icon'>
+                                        <a className='link' href="https://github.com/MohakWaghchaure" target="_blank"><img src={github} /></a>
+                                    </div>
+                                    <div className='icon'>
+                                        <a className='link' href="https://www.linkedin.com/in/mohakwaghchaure/" target="_blank"><img src={linkedin} /></a>
+                                    </div>
+                                    <div className='icon'>
+                                        <a className='link' href="https://github.com/MohakWaghchaure" target="_blank"><img src={github} /></a>
+                                    </div>
                                 </div>
+                                {/* <div className='btn-wrapper'>
+                                    <button onClick={scrollToContact}>Get In Touch</button>
+                                </div> */}
                                 <div className='resume-wrap'>
                                     <a href={resumePdf} download='Mohak_Waghchaure_resume' className='resume'>Download Resume</a>
                                 </div>
@@ -57,19 +73,34 @@ function Home(){
                             <div className='text-2'>A software developer specialized in <span className='highlight'>Frontend Engineering</span>, Based in New York City</div>
                             <div className='text-4'>
                                 <ul>
-                                    <li>Worked with <span className='highlight'>Web Technologies and Animation</span> libraries</li>
-                                    <li>Proficient in <span className='highlight'>React and Node</span> stack</li>
-                                    <li>Familiar with design tools like <span className='highlight'>Photoshop, Figma, and Adobe XD</span></li>
-                                    <li>Experienced with <span className='highlight'>CMS technologies</span></li>
+                                    <li>Experienced in <span className='highlight'>React, Node</span>  stack and <span className='highlight'> Web Technologies.</span></li>
+                                    <li>Proficient in <span className='highlight'>REST APIs, CMS,</span> and <span className='highlight'> Cloud Technologies.</span> </li>
+                                    <li>Equiped with <span className='highlight'>Version Control, CI/CD,</span> and <span className='highlight'>Agile Practices.</span></li>
+                                    <li>Familiar with design tools like <span className='highlight'>Photoshop, Figma.</span></li>
+                                    <li>Passionate about creating seamless <span className='highlight'>User Experiences.</span></li>
                                 </ul>
                             </div>
                             <div className='text-3'>Beyond tech I'm proficient in client interactions, successful in team and solo projects, eager to learn new technologies</div>
                             
                             <div className='text-2 highlight'>Let's create something amazing together!</div>
                             <div className='sm-buttons-container'>
-                                <div className='btn-wrapper'>
-                                    <button onClick={scrollToContact}>Get In Touch</button>
+                                <div className='home-socials'>
+                                    <div className='icon'>
+                                        <a className='link' href="https://www.linkedin.com/in/mohakwaghchaure/" target="_blank"><img src={linkedin} /></a>
+                                    </div>
+                                    <div className='icon'>
+                                        <a className='link' href="https://github.com/MohakWaghchaure" target="_blank"><img src={github} /></a>
+                                    </div>
+                                    <div className='icon'>
+                                        <a className='link' href="https://www.linkedin.com/in/mohakwaghchaure/" target="_blank"><img src={linkedin} /></a>
+                                    </div>
+                                    <div className='icon'>
+                                        <a className='link' href="https://github.com/MohakWaghchaure" target="_blank"><img src={github} /></a>
+                                    </div>
                                 </div>
+                                {/* <div className='btn-wrapper'>
+                                    <button onClick={scrollToContact}>Get In Touch</button>
+                                </div> */}
                                 <div className='resume-wrap'>
                                     <a href={resumePdf} download='Mohak_Waghchaure_resume' className='resume'>Download Resume</a>
                                 </div>

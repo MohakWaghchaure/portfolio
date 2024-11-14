@@ -325,7 +325,7 @@ body{
                 }
             }
             .buttons-container, .sm-buttons-container{
-                padding: 50px 20px;
+                padding: 40px 20px;
                 text-align: center;
                 @media screen and (max-width: 768px) {
                     display: none;
@@ -362,17 +362,32 @@ body{
                     }
                 }
                 .resume-wrap{
+                    padding: 20px 0px;
                     .resume{
-                        color: $color_5;
+                        color: $color_6;
+                        background-color: $color_3;
                         font-size: 1.1rem;
+                        border: 0px;
                         font-weight: 600;
-                        cursor: pointer;
+                        padding: 10px 25px;
                         text-decoration: none;
-                        transition: 0.2s;
+                        cursor: pointer;
+                        border-radius: 5px;
+                        border: 2px solid $color_3;
                         &:hover{
-                            color: $color_2;
+                            transition: 0.2s;
+                            color: $color_5;
+                            border: 2px solid $color_5;
+                            background-color: $color_1;
+                            box-shadow: 0 0 10px $color_5;
+                        }
+                        @media screen and (max-width: 1200px) {
+                            font-size: 1.1rem;
                         }
                         @media screen and (max-width: 992px) {
+                            font-size: 1rem;
+                        }
+                        @media screen and (max-width: 768px) {
                             font-size: 1rem;
                         }
                     }
@@ -383,6 +398,38 @@ body{
                 @media screen and (max-width: 768px) {
                     display: block;
                     padding: 10px 10px;
+                }
+            }
+            .home-socials{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 20px;
+                .icon{
+                    height: 40px;
+                    width: 40px;
+                    border: 1px solid $color_4;
+                    border-radius: 50%;
+                    padding: 10px 10px;
+                    margin: 0px 5px;
+                    transition: 0.2s;
+                    &:hover{
+                        transition: 0.2s;
+                        color: $color_5;
+                        border: 1px solid $color_5;
+                        // background-color: $color_1;
+                        box-shadow: 0 0 10px $color_5;
+                    }
+                    .link{
+                        height: 100%;
+                        width: 100%;
+                        display: inline-block;
+                        img{
+                        height: 100%;
+                        width: 100%;
+                    }
+                    }
+                    
                 }
             }
         }

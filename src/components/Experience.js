@@ -19,7 +19,13 @@ function Experience({ setIsOpen, setModalContent }){
                                 <div className='title'>UX Design / Engineering Intern</div>
                                 <div className='border-line'></div>
                                 <div className='description'>Subconscious.ai, Inc.</div>
-                                <div className='date'>June 2024 to Present</div>
+                                <div className='date'>June 2024 to Oct 2024</div>
+                            </div>
+                            <div className='info-wrapper' data-aos="fade-up">
+                                <div className='title'>Peer Mentor - Rutgers University</div>
+                                <div className='border-line'></div>
+                                <div className='description'>Rutgers university</div>
+                                <div className='date'>June 2023 to Dec 2023 | Feb 2024 to June 2024</div>
                             </div>
                             <div className='info-wrapper' data-aos="fade-up">
                                 <div className='title'>Assistant Frontend Developer</div>
