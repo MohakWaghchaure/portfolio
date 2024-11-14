@@ -710,7 +710,7 @@ body{
                         border: 1px solid $color_3;
                         padding: 30px 35px;
                         transition: 0.2s;
-                        min-height: 450px;
+                        min-height: 650px;
                         cursor: grab;
                         &:hover{
                             transition: 0.2s;
@@ -723,6 +723,7 @@ body{
                             font-weight: 600;
                             color: $color_4;
                             position: relative;
+                            margin-bottom: 45px;
                             @media screen and (max-width: 1200px) {
                                 font-size: 1.4rem;
                             }
@@ -737,6 +738,13 @@ body{
                                 background-color: $color_2;
                                 left: 0%;
                                 bottom: -20px;
+                            }
+                        }
+                        .thumb{
+                           height: auto;
+                            img{
+                                max-height: 100%;
+                                max-width: 100%;
                             }
                         }
                         .description{
@@ -756,6 +764,10 @@ body{
                             padding-bottom: 40px;
                             color: $color_2;
                             font-weight: 600;
+                            a{
+                                // text-decoration: none;
+                                color: $color_5;
+                            }
                         }
                         .btn-wrapper{
                             position: absolute;

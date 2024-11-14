@@ -4,6 +4,8 @@ import resumePdf from '../docs/Mohak_Sunil_Waghchaure_Resume.pdf';
 import './animations.js';
 import github from '../images/icons/github.png';
 import linkedin from '../images/icons/linkedin.png';
+import phone from '../images/icons/phone.png';
+import email from '../images/icons/email.png';
  
 function Home(){
     
@@ -43,16 +45,16 @@ function Home(){
                             <div className='buttons-container'>
                                 <div className='home-socials'>
                                     <div className='icon'>
-                                        <a className='link' href="https://www.linkedin.com/in/mohakwaghchaure/" target="_blank"><img src={linkedin} /></a>
-                                    </div>
-                                    <div className='icon'>
-                                        <a className='link' href="https://github.com/MohakWaghchaure" target="_blank"><img src={github} /></a>
+                                        <a className='link' href="mailto:mohak11jan@gmail.com" target="_blank"><img src={email} /></a>
                                     </div>
                                     <div className='icon'>
                                         <a className='link' href="https://www.linkedin.com/in/mohakwaghchaure/" target="_blank"><img src={linkedin} /></a>
                                     </div>
                                     <div className='icon'>
                                         <a className='link' href="https://github.com/MohakWaghchaure" target="_blank"><img src={github} /></a>
+                                    </div>
+                                    <div className='icon'>
+                                        <a className='link' href="tel:973-583-1124" target="_blank"><img src={phone} /></a>
                                     </div>
                                 </div>
                                 {/* <div className='btn-wrapper'>
@@ -86,16 +88,16 @@ function Home(){
                             <div className='sm-buttons-container'>
                                 <div className='home-socials'>
                                     <div className='icon'>
-                                        <a className='link' href="https://www.linkedin.com/in/mohakwaghchaure/" target="_blank"><img src={linkedin} /></a>
-                                    </div>
-                                    <div className='icon'>
-                                        <a className='link' href="https://github.com/MohakWaghchaure" target="_blank"><img src={github} /></a>
+                                        <a className='link' href="mailto:mohak11jan@gmail.com" target="_blank"><img src={email} /></a>
                                     </div>
                                     <div className='icon'>
                                         <a className='link' href="https://www.linkedin.com/in/mohakwaghchaure/" target="_blank"><img src={linkedin} /></a>
                                     </div>
                                     <div className='icon'>
                                         <a className='link' href="https://github.com/MohakWaghchaure" target="_blank"><img src={github} /></a>
+                                    </div>
+                                    <div className='icon'>
+                                        <a className='link' href="tel:973-583-1124" target="_blank"><img src={phone} /></a>
                                     </div>
                                 </div>
                                 {/* <div className='btn-wrapper'>
