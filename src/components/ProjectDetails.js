@@ -28,7 +28,7 @@ function ProjectDetails({projectNumber}){
             {(projectNumber == 'pricingPage') && 
             <div className='project-details-container'>
                 <div className='p-headline'>Pricing mockup page</div>
-                <div className='p-description'>Responsive pricing page showcasing various subscription plans, using a clean design with React.js and CSS for styling. The page features clear, interactive pricing cards, highlighting key benefits and details for each plan, making it easy for users to compare options and make informed decisions.</div>
+                <div className='p-description'>A pricing page showcasing various subscription plans, using a clean design with React.js and CSS for styling. The page features clear, interactive pricing cards, highlighting key benefits and details for each plan, making it easy for users to compare options and make informed decisions.</div>
                 <div className='p-sub-headline'><a href='https://github.com/MohakWaghchaure/pricing-page' target='_blank'>View code</a></div>
             </div>}
             {(projectNumber == 'subconsciousAI') && 
