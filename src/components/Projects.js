@@ -71,10 +71,10 @@ function Projects({ setIsOpen, setModalContent }) {
     };
     return (
         <Fragment>
-            <div className='projects-wrapper' id="project-section-anchor">
+            <div className='projects-wrapper' id="project-section-anchor" >
                 <div className='container'>
                     <div className='projects-container'>
-                        <div className='heading-wrap' data-aos="fade-up">
+                        <div className='heading-wrap'>
                             <div className='heading'>Projects</div>
                             <div className='heading-icon'>
                                 <img src={ProjectsImage} />
