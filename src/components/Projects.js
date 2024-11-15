@@ -13,7 +13,7 @@ import SubconsciousAI from '../images/projects/subconscious.png';
 
 function Projects({ setIsOpen, setModalContent }) {
     var sliderSettings = {
-        dots: false,
+        dots: true,
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -28,7 +28,7 @@ function Projects({ setIsOpen, setModalContent }) {
                     slidesToShow: 3,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: false,
+                    dots: true,
                 }
             },
             {
@@ -37,7 +37,7 @@ function Projects({ setIsOpen, setModalContent }) {
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: false,
+                    dots: true,
                 }
             },
             {
@@ -45,6 +45,8 @@ function Projects({ setIsOpen, setModalContent }) {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
                 }
             },
             {
@@ -52,6 +54,8 @@ function Projects({ setIsOpen, setModalContent }) {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
                 }
             },
             {
@@ -59,6 +63,8 @@ function Projects({ setIsOpen, setModalContent }) {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
                 }
             },
         ]
