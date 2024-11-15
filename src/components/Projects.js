@@ -13,7 +13,7 @@ import SubconsciousAI from '../images/projects/subconscious.png';
 
 function Projects({ setIsOpen, setModalContent }) {
     var sliderSettings = {
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
