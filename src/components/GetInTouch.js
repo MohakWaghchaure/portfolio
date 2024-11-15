@@ -10,8 +10,8 @@ function GetInTouch(){
     return(
         <Fragment>
             <div className='contact-wrapper' id="contact-section-anchor">
-                <div className='container'>
-                    <div className='row contact-container' data-aos="fade-up">
+                <div className='container' >
+                    <div className='row contact-container'>
                         <div className='heading-wrap'>
                             <div className='heading'>Get In Touch</div>
                             <div className='heading-icon'>
