@@ -8,6 +8,8 @@ import PlayingWithAnimationss from '../images/projects/playing-with-animations.p
 import LordOfTheDrinks from '../images/projects/lord-of-the-drinks.png';
 import InteriorPage from '../images/projects/interior-mockup.png';
 import PricingPage from '../images/projects/pricing-mockup.png';
+import Differential from '../images/projects/differential-capital.png';
+import SubconsciousAI from '../images/projects/subconscious.png';
 
 function Projects({ setIsOpen, setModalContent }) {
     var sliderSettings = {
@@ -81,10 +83,10 @@ function Projects({ setIsOpen, setModalContent }) {
                                             <div className='thumb'>
                                                 <img src={LordOfTheDrinks} />
                                             </div>
-                                            <div className='description'>An AI-empowered humanoid robot that helps customers to self-serve..</div>
+                                            <div className='description'>Lord of the Drinks provides drink information and recipes, and users can search for their favorite drinks by name or ingredient..</div>
                                             <div className='sub-headline'><a href='https://lord-of-the-drinks.vercel.app/' target='_blank'>View project</a></div>
                                             <div className='btn-wrapper'>
-                                                <button className='btn' onClick={() => { setIsOpen(true); setModalContent('talkkAi') }}>Know More</button>
+                                                <button className='btn' onClick={() => { setIsOpen(true); setModalContent('lordOfTheDrinks') }}>Know More</button>
                                             </div>
                                         </div>
                                     </div>
@@ -107,10 +109,10 @@ function Projects({ setIsOpen, setModalContent }) {
                                             <div className='thumb'>
                                                 <img src={InteriorPage} />
                                             </div>
-                                            <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website..</div>
+                                            <div className='description'>This project landing page for an interior design business. It highlights projects, services, and client testimonials to deliver a seamless user experience..</div>
                                             <div className='sub-headline'><a href='https://mohakwaghchaure.github.io/interior/' target='_blank'>View project</a></div>
                                             <div className='btn-wrapper'>
-                                                <button className='btn' onClick={() => { setIsOpen(true); setModalContent('playingWithAnimations') }}>Know More</button>
+                                                <button className='btn' onClick={() => { setIsOpen(true); setModalContent('interiorPage') }}>Know More</button>
                                             </div>
                                         </div>
                                     </div>
@@ -123,7 +125,20 @@ function Projects({ setIsOpen, setModalContent }) {
                                             <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website..</div>
                                             <div className='sub-headline'><a href='https://mohakwaghchaure.github.io/pricing-page/' target='_blank'>View project</a></div>
                                             <div className='btn-wrapper'>
-                                                <button className='btn' onClick={() => { setIsOpen(true); setModalContent('playingWithAnimations') }}>Know More</button>
+                                                <button className='btn' onClick={() => { setIsOpen(true); setModalContent('pricingPage') }}>Know More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='card-wrapper'>
+                                        <div className='card'>
+                                            <div className='headline'>Subconscious AI</div>
+                                            <div className='thumb'>
+                                                <img src={SubconsciousAI} />
+                                            </div>
+                                            <div className='description'>Subconscious.ai leverages machine learning and natural language processing to analyze user behavior, preferences..</div>
+                                            <div className='sub-headline'>Associated with Subconscious.ai Inc.</div>
+                                            <div className='btn-wrapper'>
+                                                <button className='btn' onClick={() => { setIsOpen(true); setModalContent('subconsciousAI') }}>Know More</button>
                                             </div>
                                         </div>
                                     </div>
@@ -153,33 +168,19 @@ function Projects({ setIsOpen, setModalContent }) {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* <div className='card-wrapper'>
-                                        <div className='card'>
-                                            <div className='headline'>Sign language Translator</div>
-                                            <div className='thumb'>
-                                                <img src={FeelingFab} />
-                                            </div>
-                                            <div className='description'>The glove converts ASL into english alphabets as per the hand gestures..</div>
-                                            <div className='sub-headline'>Capstone Project - Undergrad</div>
-                                            <div className='btn-wrapper'>
-                                                <button className='btn' onClick={() => { setIsOpen(true); setModalContent('SignLanguageTranslator') }}>Know More</button>
-                                            </div>
-                                        </div>
-                                    </div> */}
-                                    {/* <div className='card-wrapper'>
+                                    <div className='card-wrapper'>
                                         <div className='card'>
                                             <div className='headline'>Differential Capital</div>
                                             <div className='thumb'>
-                                                <img src={FeelingFab} />
+                                                <img src={Differential} />
                                             </div>
-                                            <div className='description'>It offer various investment products, including a multi-strategy hedge fund..</div>
+                                            <div className='description'>It offer various investment products, including a multi-strategy hedge fund and an SA equity unit trust..</div>
                                             <div className='sub-headline'>Associated with Gray matrix Pvt. Ltd.</div>
                                             <div className='btn-wrapper'>
                                                 <button className='btn' onClick={() => { setIsOpen(true); setModalContent('differentialCapital') }}>Know More</button>
                                             </div>
                                         </div>
-                                    </div> */}
-
+                                    </div>
                                 </Slider>
                                 {/* <div className='slider-arrows'>
                                     <div className='arrow left'>

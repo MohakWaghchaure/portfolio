@@ -43,8 +43,8 @@ function App() {
     setIsOpen(true);
   }
   function afterOpenModal() {
-    
-  } 
+
+  }
   function closeModal() {
     setIsOpen(false);
   }
@@ -60,27 +60,30 @@ function App() {
       <Projects setIsOpen={setIsOpen} setModalContent={setModalContent}></Projects>
       <Skills></Skills>
       <GetInTouch></GetInTouch>
-      <Footer></Footer>     
+      <Footer></Footer>
       <BackgroundCircles></BackgroundCircles>
       <Modal isOpen={modalIsOpen} onAfterOpen={afterOpenModal} onRequestClose={closeModal} style={customStyles}>
         <div className='modal-container'>
           <div className='modal-body'>
-          {modalContent === 'about' && <About></About>}
-          {modalContent === 'education' && <EducationDetails></EducationDetails>}
-          {modalContent === 'experience' && <ExperienceDetails></ExperienceDetails>}
-          {modalContent === 'talkkAi' && <ProjectDetails projectNumber={'talkkAi'}></ProjectDetails>}
-          {modalContent === 'feelingfab' && <ProjectDetails projectNumber={'feelingfab'}></ProjectDetails>}
-          {modalContent === 'playingWithAnimations' && <ProjectDetails projectNumber={'playingWithAnimations'}></ProjectDetails>}
-          {modalContent === 'SignLanguageTranslator' && <ProjectDetails projectNumber={'SignLanguageTranslator'}></ProjectDetails>}
-          {modalContent === 'differentialCapital' && <ProjectDetails projectNumber={'differentialCapital'}></ProjectDetails>}
-          
+            {modalContent === 'about' && <About></About>}
+            {modalContent === 'education' && <EducationDetails></EducationDetails>}
+            {modalContent === 'experience' && <ExperienceDetails></ExperienceDetails>}
+            {/* -------------Project Details------------------ */}
+            {modalContent === 'lordOfTheDrinks' && <ProjectDetails projectNumber={'lordOfTheDrinks'}></ProjectDetails>}
+            {modalContent === 'playingWithAnimations' && <ProjectDetails projectNumber={'playingWithAnimations'}></ProjectDetails>}
+            {modalContent === 'interiorPage' && <ProjectDetails projectNumber={'interiorPage'}></ProjectDetails>}
+            {modalContent === 'pricingPage' && <ProjectDetails projectNumber={'pricingPage'}></ProjectDetails>}
+            {modalContent === 'subconsciousAI' && <ProjectDetails projectNumber={'subconsciousAI'}></ProjectDetails>}
+            {modalContent === 'talkkAi' && <ProjectDetails projectNumber={'talkkAi'}></ProjectDetails>}
+            {modalContent === 'feelingfab' && <ProjectDetails projectNumber={'feelingfab'}></ProjectDetails>}
+            {modalContent === 'differentialCapital' && <ProjectDetails projectNumber={'differentialCapital'}></ProjectDetails>}
           </div>
           <span className='modal-close' onClick={closeModal}></span>
         </div>
-        
+
       </Modal>
-      
-      
+
+
     </div>
   );
 }

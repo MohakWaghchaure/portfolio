@@ -742,6 +742,7 @@ body{
                         }
                         .thumb{
                            height: auto;
+                           border: 2px solid $color_3;
                             img{
                                 max-height: 100%;
                                 max-width: 100%;
