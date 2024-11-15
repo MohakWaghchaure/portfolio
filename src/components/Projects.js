@@ -6,6 +6,8 @@ import FeelingFab from '../images/projects/feeling-fab.png';
 import TalkkAi from '../images/projects/talkk-ai.png';
 import PlayingWithAnimationss from '../images/projects/playing-with-animations.png';
 import LordOfTheDrinks from '../images/projects/lord-of-the-drinks.png';
+import InteriorPage from '../images/projects/interior-mockup.png';
+import PricingPage from '../images/projects/pricing-mockup.png';
 
 function Projects({ setIsOpen, setModalContent }) {
     var sliderSettings = {
@@ -30,7 +32,7 @@ function Projects({ setIsOpen, setModalContent }) {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true,
@@ -88,6 +90,45 @@ function Projects({ setIsOpen, setModalContent }) {
                                     </div>
                                     <div className='card-wrapper'>
                                         <div className='card'>
+                                            <div className='headline'>Playing with Animations</div>
+                                            <div className='thumb'>
+                                                <img src={PlayingWithAnimationss} />
+                                            </div>
+                                            <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website..</div>
+                                            <div className='sub-headline'><a href='https://mohakwaghchaure.github.io/playing-with-animations/' target='_blank'>View project</a></div>
+                                            <div className='btn-wrapper'>
+                                                <button className='btn' onClick={() => { setIsOpen(true); setModalContent('playingWithAnimations') }}>Know More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='card-wrapper'>
+                                        <div className='card'>
+                                            <div className='headline'>Interior landing page</div>
+                                            <div className='thumb'>
+                                                <img src={InteriorPage} />
+                                            </div>
+                                            <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website..</div>
+                                            <div className='sub-headline'><a href='https://mohakwaghchaure.github.io/interior/' target='_blank'>View project</a></div>
+                                            <div className='btn-wrapper'>
+                                                <button className='btn' onClick={() => { setIsOpen(true); setModalContent('playingWithAnimations') }}>Know More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='card-wrapper'>
+                                        <div className='card'>
+                                            <div className='headline'>Pricing mockup</div>
+                                            <div className='thumb'>
+                                                <img src={PricingPage} />
+                                            </div>
+                                            <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website..</div>
+                                            <div className='sub-headline'><a href='https://mohakwaghchaure.github.io/pricing-page/' target='_blank'>View project</a></div>
+                                            <div className='btn-wrapper'>
+                                                <button className='btn' onClick={() => { setIsOpen(true); setModalContent('playingWithAnimations') }}>Know More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='card-wrapper'>
+                                        <div className='card'>
                                             <div className='headline'>Talkk.ai</div>
                                             <div className='thumb'>
                                                 <img src={TalkkAi} />
@@ -101,7 +142,7 @@ function Projects({ setIsOpen, setModalContent }) {
                                     </div>
                                     <div className='card-wrapper'>
                                         <div className='card'>
-                                            <div className='headline'>Feelingfab</div>
+                                            <div className='headline'>Feeling Fabulous</div>
                                             <div className='thumb'>
                                                 <img src={FeelingFab} />
                                             </div>
@@ -109,19 +150,6 @@ function Projects({ setIsOpen, setModalContent }) {
                                             <div className='sub-headline'>Associated with Gray Matrix Pvt. Ltd.</div>
                                             <div className='btn-wrapper'>
                                                 <button className='btn' onClick={() => { setIsOpen(true); setModalContent('feelingfab') }}>Know More</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='card-wrapper'>
-                                        <div className='card'>
-                                            <div className='headline'>Playing with Animations</div>
-                                            <div className='thumb'>
-                                                <img src={PlayingWithAnimationss} />
-                                            </div>
-                                            <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website..</div>
-                                            <div className='sub-headline'><a href='https://mohakwaghchaure.github.io/playing-with-animations/' target='_blank'>View project</a></div>
-                                            <div className='btn-wrapper'>
-                                                <button className='btn' onClick={() => { setIsOpen(true); setModalContent('playingWithAnimations') }}>Know More</button>
                                             </div>
                                         </div>
                                     </div>
