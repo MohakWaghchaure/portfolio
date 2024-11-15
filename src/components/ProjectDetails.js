@@ -22,7 +22,7 @@ function ProjectDetails({projectNumber}){
             {(projectNumber == 'interiorPage') && 
             <div className='project-details-container'>
                 <div className='p-headline'>Interior landing page</div>
-                <div className='p-description'>Developed a visually appealing landing page for an interior design business using React.js, SCSS for modular styling, and Bootstrap for responsive design. The page highlights projects, services, and client testimonials to deliver a seamless user experience.</div>
+                <div className='p-description'>Developed a visually appealing landing page for an interior design business using React.js, SCSS for modular styling, and Bootstrap for grid. The page highlights projects, services, and client testimonials to deliver a seamless user experience.</div>
                 <div className='p-sub-headline'><a href='https://github.com/MohakWaghchaure/interior' target='_blank'>View code</a></div>
             </div>}
             {(projectNumber == 'pricingPage') && 
