@@ -128,7 +128,7 @@ function Projects({ setIsOpen, setModalContent }) {
                                             <div className='thumb'>
                                                 <img src={PricingPage} />
                                             </div>
-                                            <div className='description'>This project focuses on implementing various animations and transitions to enhance the interactivity of the website..</div>
+                                            <div className='description'>A pricing page showcasing various subscription plans, using a clean design..</div>
                                             <div className='sub-headline'><a href='https://mohakwaghchaure.github.io/pricing-page/' target='_blank'>View project</a></div>
                                             <div className='btn-wrapper'>
                                                 <button className='btn' onClick={() => { setIsOpen(true); setModalContent('pricingPage') }}>Know More</button>
