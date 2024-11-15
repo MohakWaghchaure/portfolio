@@ -1,12 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0f3f4f97.css",
-    "main.js": "/portfolio/static/js/main.1211418b.js",
+    "main.css": "/portfolio/static/css/main.3dbedee9.css",
+    "main.js": "/portfolio/static/js/main.89a8e3a4.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile.jpeg": "/portfolio/static/media/profile.85b6caf955813ce994d1.jpeg",
     "static/media/education.jpg": "/portfolio/static/media/education.e52afe75e9d456691b99.jpg",
+    "static/media/lord-of-the-drinks.png": "/portfolio/static/media/lord-of-the-drinks.2e5bfae2549260c8ad2f.png",
+    "static/media/differential-capital.png": "/portfolio/static/media/differential-capital.e63a3f9bbefbea5c88fd.png",
+    "static/media/interior-mockup.png": "/portfolio/static/media/interior-mockup.c34c17c6f4c7b7d8ec81.png",
     "static/media/experience.jpg": "/portfolio/static/media/experience.d1ff635a064f70e25516.jpg",
-    "static/media/Mohak_Sunil_Waghchaure_Resume.pdf": "/portfolio/static/media/Mohak_Sunil_Waghchaure_Resume.683e95f8ce6d86859900.pdf",
+    "static/media/feeling-fab.png": "/portfolio/static/media/feeling-fab.6d8603f48dbeaed4c675.png",
+    "static/media/talkk-ai.png": "/portfolio/static/media/talkk-ai.4c891981b71897f97e60.png",
+    "static/media/subconscious.png": "/portfolio/static/media/subconscious.3914248517349b1ee417.png",
+    "static/media/pricing-mockup.png": "/portfolio/static/media/pricing-mockup.9a1784fa2d14498d9286.png",
+    "static/media/Mohak_Sunil_Waghchaure_Resume.pdf": "/portfolio/static/media/Mohak_Sunil_Waghchaure_Resume.fb9e3f312346bcd1c8f1.pdf",
+    "static/media/playing-with-animations.png": "/portfolio/static/media/playing-with-animations.35eed0047f4985fb77cd.png",
     "static/media/phone-call.png": "/portfolio/static/media/phone-call.07464f81777c6fa8cd80.png",
     "static/media/skills.png": "/portfolio/static/media/skills.fd10b3f47082be54b4b3.png",
     "static/media/projects.png": "/portfolio/static/media/projects.5f8778f6a8996cb0cd97.png",
@@ -16,12 +24,12 @@
     "static/media/github.png": "/portfolio/static/media/github.4d72b1fa63d09ec749f1.png",
     "static/media/close_1.png": "/portfolio/static/media/close_1.8364029a8468ad17db2d.png",
     "index.html": "/portfolio/index.html",
-    "main.0f3f4f97.css.map": "/portfolio/static/css/main.0f3f4f97.css.map",
-    "main.1211418b.js.map": "/portfolio/static/js/main.1211418b.js.map",
+    "main.3dbedee9.css.map": "/portfolio/static/css/main.3dbedee9.css.map",
+    "main.89a8e3a4.js.map": "/portfolio/static/js/main.89a8e3a4.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f3f4f97.css",
-    "static/js/main.1211418b.js"
+    "static/css/main.3dbedee9.css",
+    "static/js/main.89a8e3a4.js"
   ]
 }
